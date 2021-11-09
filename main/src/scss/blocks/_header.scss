@@ -1,0 +1,285 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .header__link-text {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 0.625vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #217aff;
+
+    &_provost {
+      font-family: Oswald;
+      font-weight: bold;
+      font-size: 0.95vw;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #217AFF;
+    }
+  }
+  
+  .header__link-icon {
+    margin-right: 0.833vw;
+  }
+  
+  .header__link-bg {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .header__search {
+    width: 50.833vw;
+    margin: 0 auto;
+    height: 3.542vw;
+    position: relative;
+    padding-top: 0.99vw;
+  
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0.99vw;
+      border-bottom: 1px dashed #21caff;
+      opacity: 0.5;
+      width: 34.635vw;
+      left: 5.833vw;
+    }
+  }
+  
+  .header__search-bg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -0.313vw;
+    bottom: 0;
+    width: 50.6vw;
+    height: 7.4vh;
+  }
+  
+  .header__search-contains {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 39.063vw;
+    margin: 0 auto;
+  }
+  
+  .header__search-submit {
+    flex: 0 0 auto;
+    margin-right: 0.573vw;
+  }
+  
+  .header__search-input {
+    padding: 0.625vw 0;
+    color: #fff;
+  }
+  
+  .header__link {
+    position: absolute;
+    right: 4.479vw;
+    top: 2.188vw;
+    width: 10.781vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    padding-left: 0.938vw;
+    padding-bottom: 0.625vw;
+  }
+  
+  .header__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  svg {
+    fill: transparent;
+  }
+
+  .layout-link {
+    position: absolute;
+    top: 2.188vw;
+    left: 2.188vw;
+    display: flex;
+    align-items: center;
+    margin: -0.781vw;
+
+    &_home {
+        top: 2.18vw;
+        left: 2.9vw;
+
+    }
+}
+  
+  .topnav__btn {
+    position: absolute;
+    top: 2.2vw;
+    width: 8.781vw;
+    height: 2.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+
+    &_portraits {
+      left: 10vw;
+    }
+
+    &_priority {
+      left: 18.2vw;
+    }
+
+    &_to-website {
+      top: 9.5%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      
+    }
+
+    &-border {
+      left: 0;
+      width: 8.781vw;
+      height: 2.708vw;
+      position: absolute;
+    }
+
+    &-text {
+      font-size: 0.95vw;
+      color: #fb9b2b;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: 0.05em;
+    }
+  }
+  
+  .admissions__btn {
+    position: absolute;
+    right: 18vw;
+    top: 1.2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+  } 
+
+  .bachelor_degree{
+    position: absolute;
+    font-size: 1vw;
+    color: #fb9b2b;
+    text-transform: uppercase;
+    font-weight: 200;
+    right: 0.7vw;
+    top: 1.3vw;
+    cursor: pointer;
+  }
+
+  .master_degree{
+    position: absolute;
+    font-size: 1vw;
+    color: #fb9b2b;
+    text-transform: uppercase;
+    font-weight: 400;
+    right: 1.2vw;
+    top: 5.15vw;
+    cursor: pointer;
+  }
+
+  .admissions-text{
+    font-size: 1vw;
+    color: #217AFF;
+    font-weight: 400;
+    letter-spacing: 0.03em;
+    line-height: 1.1vw;
+    position: absolute;
+    left: -3.9vw;
+    top: 3vw;
+}
+
+
+  .portrets__btn-text {
+    font-size: 0.9vw;
+    text-transform: uppercase;
+    color: #fb9b2b;
+    font-weight: 500;
+    @media (min-width: 768px) and (max-width: 1199.98px) {
+      font-size: 1vw;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+
+  .layout-link__item {
+    padding: 0.781vw;
+  }
+
+
+
+  .priority__btn {
+    position: absolute;
+    left: 19.479vw;
+    top: 2.188vw;
+    width: 8.781vw;
+    height: 2.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 99;
+    @media (min-width: 768px) and (max-width: 1199.98px) {
+      left: 45.5vw;
+      top: 2.4vw;
+    }
+}
+
+.bg {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	background: url('../../assets/img/bg.png') repeat center/1920px;
+	overflow: hidden;
+}
+
+.top_pagination{
+    position: absolute;
+    top: 2vw;
+    left: 4vw;
+    display: flex;
+    z-index: 999;
+}
+
+.go_to_home{
+    position: relative;
+    margin-right: 1vw;
+    cursor: pointer;
+  }
+  
+  .go_to_home span{
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 0.625vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #217aff;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 1.2vw;
+    right: 0;
+    bottom: 0;
+  }

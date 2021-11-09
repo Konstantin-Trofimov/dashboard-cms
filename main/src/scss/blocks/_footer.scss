@@ -1,0 +1,110 @@
+.footer {
+	position: relative;
+	z-index: -1;
+}
+
+.footer__btns-val {
+	position: absolute;
+	font-weight: 700;
+	font-size: 0.521vw;
+	bottom: 0.3vw;
+	right: 0.3vw;
+	padding: 0 0.881vw;
+	background-color: #fb9b2b;
+
+	&:before {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		left: 0;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: .7vw .7vw 0 0;
+		border-color: #101f54 transparent transparent transparent;
+	}
+
+	&:after {
+		content: '';
+		position: absolute;
+		top: 0;
+		bottom: 0;
+		right: 0;
+		width: 0;
+		height: 0;
+		border-style: solid;
+		border-width: 0 0 .7vw .7vw;
+		border-color: transparent transparent #101f54 transparent;
+	}
+}
+
+.footer__btns {
+	position: absolute;
+	bottom: 3vw;
+	right: 8.5vw;
+	display: flex;
+}
+
+.footer__btns-item {
+	margin: 0 -0.3vw;
+}
+
+.footer__btns-btn {
+	position: relative;
+	width: 9.844vw;
+	height: 3.385vw;
+	z-index: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: #fff;
+	padding-top: 0.7vw;
+}
+
+.btn--large {
+	width: 10.677vw;
+	height: 3.438vw;
+
+	.footer__btns-text {
+		position: relative;
+		left: 0.5vw;
+	}
+}
+
+.footer__btns-text {
+	font-weight: 700;
+	font-size: 0.521vw;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+.footer__btns-icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	z-index: -1;
+}
+
+.footer__logo {
+	position: absolute;
+	left: 4.271vw;
+	bottom: 1vw;
+
+	img {
+		width: 10.677vw;
+		height: 3.1vw;
+	}
+}
+
+.footer__img {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	width: 100vw;
+	height: 6vw;
+	overflow: hidden;
+}
