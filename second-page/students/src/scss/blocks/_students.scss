@@ -1,0 +1,446 @@
+.students {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 8.2vw 3.4vw 2.8vw 2.8vw;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+    &__title {
+        margin-top: 0.3vw;
+        font-family: Oswald;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 0.9vw;
+        line-height: 1.15vw;
+        max-width: 14vw;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    &__data-block {
+        position: relative;
+        z-index: 0;
+        width: 100%;
+
+        &_higher-education, &_branches-higher-education {
+            height: 19vw;
+        }
+
+        &_secondary_education, &_lyceum, &_graduate-school, &_branches-secondary_education, &_branches-high-school, &_branches-graduate-school  {
+            height: 11.7vw;
+        }
+
+        &_branches-higher-education, &_lyceum, &_graduate-school, &_branches-high-school, &_branches-graduate-school  {
+            margin-top: 1.3vw;
+        }
+
+        &_date {
+            height: 5vw;
+            width: 93%;
+            margin-left: 0.9vw;
+        }
+
+        &-date-wrap {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            p {
+                font-family: Oswald;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 0.85vw;
+                letter-spacing: 0.05em;
+                text-align: right;
+                color: #F79A2D;
+            }
+        }
+
+        &-indicator-wrap {
+            padding: 1.3vw 3vw 0 2.6vw;
+        }
+
+        &-diagram-wrap {
+            display: flex;
+            flex-direction: column;
+            justify-content: end;
+            width: 100%;
+            height: 8vw;
+            padding: 0.3vw 1.8vw 1vw 1.8vw;
+        }
+
+        &_branches {
+            margin-top: 1.5vw;
+        }
+
+        &_indicator {
+            height: 38vw;
+        }
+
+        &-bg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+        }
+    }
+
+    &__diagram {
+        &-base {
+            width: 100%;
+            padding: 0 0.8vw;
+        }
+
+        &-body {
+            position: relative;
+            top: 0.35vw;
+            padding:  0 1.9vw 0 1.8vw;
+            width: 100%;
+            height: 5.5vw;
+            display: flex;
+            justify-content: space-between;
+            z-index: -1;
+
+            &:before {
+                width: 92.8%;
+                content: '';
+                position: absolute;
+                top: -0.5vw;
+                left: 52.3%;
+                transform: translate(-50%, -50%);
+                border-bottom: 0.1vw dashed rgba(33, 122, 255, 0.7);
+            }
+
+            &-item {
+                width: 2.8vw;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: flex-end;
+                align-items: center;
+            }
+
+            &-сolumn {
+                width: 100%;
+
+                &_bachelors {
+                    background-color: #217AFF;
+                }
+
+                &_specialists {
+                    background-color: #FB9B2B; 
+                }
+
+                &_magisters {
+                    background-color: #D1CB33;
+                }
+            }
+
+            &-value {
+                margin-bottom: 0.1vw;
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: bold;
+                font-size: 0.55vw;
+                text-align: center;
+                color: #FFFFFF;
+            }
+        }
+
+        &-legend {
+            display: flex;
+            justify-content: space-between;
+            margin: 0 1.9vw 0 1.7vw;
+
+            &-item {
+                font-family: Oswald;
+                font-weight: 400;
+                font-size: 0.7vw;
+                letter-spacing: 0.03em;
+                color: #FFFFFF;
+            }
+        }
+    }
+    
+    &__graphic-container {
+        width: 100%;
+        height: 10.8vw; 
+        padding: 1.4vw 2.5vw 0.8vw 2.6vw;
+    }
+
+    &__graphic {
+        width: 100%;
+        height: 0.3vw;
+
+        &-wrap {
+            display: grid;
+            grid-template-rows: 2.7vw 6.5vw;
+        }
+
+        &-header {
+            display: flex;
+            justify-content: space-between;
+        } 
+
+        &-total {
+            font-family: Oswald;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 1.1vw;
+            color: #FFFFFF;
+        }
+
+        &-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &-item {
+            display: grid;
+            grid-template-columns: 4vw 1fr;
+            grid-template-rows: 1.2vw;
+            column-gap: 0.4vw;
+            align-items: center;
+            position: relative;
+
+            &:nth-child(4) {
+                margin-top: 0.6vw;
+
+                &:before {
+                    width: 100%;
+                    content: '';
+                    position: absolute;
+                    top: -0.6vw;
+                    right: -0.4vw;
+                    border-bottom: 0.1vw dashed rgba(33, 122, 255, 0.7);
+                }
+            }   
+        }
+
+        &-info {
+           position: relative;
+        }
+
+        &-descr {
+            font-family: Oswald;
+            font-weight: normal;
+            font-size: 0.7vw;
+            line-height: 0.7vw;
+            text-align: right;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+        }
+
+        &-line {
+            &-row, &-data {
+                height: 100%;  
+            }
+    
+            &-row {
+                height: 80%;
+            }
+    
+            &-data {
+                overflow: visible;
+                width: 100%;
+            }
+
+            &-value {
+                font-family: Montserrat;
+                font-style: normal;
+                font-weight: 600;
+                font-size: 0.4em;
+                fill: #FFFFFF;
+                font-stretch: none;   
+            }
+    
+            &-right-rect {
+                transform-box: fill-box;
+                transform-origin: center;
+                transform: rotate(45deg);
+                width: 0.25em;
+                height: 0.25em;
+                stroke-width: 0.1em;
+            }
+        }        
+    }
+
+    &__employment-progressbar {
+        position: relative;
+        margin-top: 2.5vw;
+        height: 12vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        &:after {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 8.4vw;
+            height: 8.4vw;
+            transform: translate(-50%, -50%);
+            border: 0.2vw solid #fb9b2b;
+            border-radius: 50%;
+        }
+
+        &-data {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(250deg);
+            width: 12vw;
+            height: 12vw;
+        }
+
+        &-center {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;   
+        }
+
+        &-descr {
+            margin-top: 0.8vw;
+            font-family: Oswald;
+            font-weight: 400;
+            font-size: 0.7vw;
+            letter-spacing: 0.02em;
+            line-height: 0.85vw;
+            color: #FFFFFF;
+            width: 5vw;
+            text-align: center;
+        }
+
+        &-ratio {
+            margin-top: 0.05vw;
+            font-family: Oswald;
+            font-weight: 400;
+            font-size: 2vw;
+            line-height: 3vw;
+            color: #F79A2D;
+            text-align: center;
+        }
+
+        &-ratio, &-descr {
+            width: 5.2vw;
+            text-align: center;
+        }
+    }
+
+    &__teaching-load {
+        margin-top: 1.6vw;
+
+        &-title {
+            font-family: Oswald;
+            font-weight: 400;
+            font-size: 0.7vw;
+            letter-spacing: 0.05em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        
+        &-progressbar {
+            margin-top: 0.8vw;
+            width: 100%;
+            height: 1.1vw;
+        }
+
+        &-fact {
+            margin-top: 1.3vw;
+        }
+
+        &-plan { 
+            margin-top: 2.55vw;
+        }
+
+        &-plan, &-fact {
+            position: relative;
+            margin-left: 0.1vw;
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            &:before {
+                width: 100%;
+                content: '';
+                position: absolute;
+                top: 2.35vw;
+                right: 0;
+                border-bottom: 0.1vw dashed rgba(33, 122, 255, 0.7);
+            }
+        }
+
+        &-descr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 0.47vw;
+            line-height: 0.55vw;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            
+
+            &_fact {
+                max-width: 9vw;
+            }
+
+            &_plan {
+                max-width: 4vw;
+            }
+        }
+
+        &-value {
+            font-family: Oswald;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 1.2vw;
+            line-height: 20px;
+            color: #217AFF;
+
+            &_plan {
+                margin-right: 1vw;
+            }
+        }   
+    }
+
+    &__score {
+        margin-top: 2.2vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+
+        &-value {
+            font-family: Oswald;
+            font-weight: 500;
+            font-size: 2.2vw;
+            text-align: center;
+            color: #FFFFFF;
+        }
+
+        &-descr {
+            font-family: Oswald;
+            font-weight: 400;
+            font-size: 0.75vw;
+            text-align: center;
+            letter-spacing: 0.1em;
+            text-transform: uppercase;
+            color: #627DAE;
+        }
+    } 
+}
