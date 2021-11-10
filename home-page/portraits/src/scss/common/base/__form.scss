@@ -1,0 +1,98 @@
+/** inputs **/
+input,
+textarea,
+select {
+  font-family: "Montserrat", $bv-helvetica;
+  font-size: 0.625vw;
+  color: #fff;
+  font-weight: 600;
+  padding: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  box-shadow: none;
+}
+
+textarea {
+  width: 100%;
+  height: 150px;
+  overflow: hidden auto;
+  resize: none;
+  margin: 0;
+}
+
+/** placeholders **/
+input::-moz-placeholder,
+textarea::-moz-placeholder {
+  font-family: "Montserrat", $bv-helvetica;
+  font-size: 0.625vw;
+  font-weight: 600;
+  opacity: 1;
+  color: #fff;
+}
+
+input::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  font-family: "Montserrat", $bv-helvetica;
+  font-size: 0.625vw;
+  font-weight: 600;
+  opacity: 1;
+  color: #fff;
+}
+
+input:not([type=submit]) {
+  width: 100%;
+}
+
+input:focus::-moz-placeholder,
+textarea:focus::-moz-placeholder {
+  color: transparent;
+  outline: none;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+  outline: none;
+}
+
+select {
+  cursor: pointer;
+}
+
+@-moz-document url-prefix() {
+  select {
+    text-indent: -2px;
+  }
+}
+
+option {
+  padding: 0;
+}
+
+input[type=number] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: none;
+}
+
+input[type="submit"]::-moz-focus-inner {
+  border: 0;
+}
+
+/** button **/
+button {
+  // font-family: "Roboto", $bv-helvetica;
+  // font-weight: 500;
+  padding: 0;
+  border: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}

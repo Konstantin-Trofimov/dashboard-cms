@@ -1,0 +1,21 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .header__link-text {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 0.625vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #217aff;
+  }
+  
+  .header__link-icon {
+    margin-right: 0.833vw;
+  }
+  

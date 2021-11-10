@@ -1,0 +1,22 @@
+<svg width="0" height="0" class="hidden">  
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" id="interim_order_rect">
+    <rect x="7.07107" y="22.1045" width="21.2607" height="21.2607" transform="rotate(-45 7.07107 22.1045)" stroke="#EF8E8E" stroke-width="10"></rect>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" id="state_assignment_rect">
+    <rect x="7.07101" y="22.1045" width="21.2607" height="21.2607" transform="rotate(-45 7.07101 22.1045)" stroke="#217AFF" stroke-width="10"></rect>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" id="cashbox_rect">
+    <rect x="7.07101" y="22.1045" width="21.2607" height="21.2607" transform="rotate(-45 7.07101 22.1045)" stroke="#4CD382" stroke-width="10"></rect>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" id="social_benefits_rect">
+    <rect x="7.07101" y="22.1045" width="21.2607" height="21.2607" transform="rotate(-45 7.07101 22.1045)" stroke="#2BD6FB" stroke-width="10"></rect>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 45 45" id="currency_rect">
+    <rect x="7.07101" y="22.1045" width="21.2607" height="21.2607" transform="rotate(-45 7.07101 22.1045)" stroke="#6C38FF" stroke-width="10"></rect>
+  </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1210 1543" id="finance_bg">
+    <path d="M1 70.3183V1504.67V1506.81L36.2467 1542H232.774L250.931 1523.87H295.79L308.607 1537.73H388.714L413.279 1512.14H940.912L965.477 1537.73H1176.96L1209 1504.67V60.7204L1169.48 21.2623H530.768L510.475 1H106.74L86.4465 21.2623H50.1317L1 70.3183Z" fill="#112054" fill-opacity="0.68" stroke="#217AFF" stroke-opacity="0.4" stroke-width="2"></path>
+    <path opacity="0.7" d="M66 508H1144" stroke="#217AFF" stroke-width="2" stroke-dasharray="2.13 6.4"></path>
+    <path opacity="0.7" d="M66 1011H1143.33" stroke="#217AFF" stroke-width="2" stroke-dasharray="2.13 6.4"></path>
+  </symbol>
+</svg>

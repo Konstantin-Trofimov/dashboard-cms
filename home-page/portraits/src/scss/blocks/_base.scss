@@ -1,0 +1,45 @@
+.bg {
+	position: fixed;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	z-index: -1;
+	// background: url('../../assets/img/bg.png') repeat center/1920px;
+	overflow: hidden;
+}
+
+.top_pagination{
+    position: absolute;
+    top: 2vw;
+    left: 4vw;
+    display: flex;
+    z-index: 999;
+}
+
+.go_to_home{
+    position: relative;
+    margin-right: 1vw;
+    cursor: pointer;
+  }
+  
+  .go_to_home span{
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 0.625vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #217aff;
+    position: absolute;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 1.2vw;
+    right: 0;
+    bottom: 0;
+  }
+
+
+
