@@ -1,0 +1,125 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+  
+  .header__link-text {
+    font-family: Rubik;
+    font-weight: 700;
+    font-size: 0.625vw;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #217aff;
+  }
+  
+  .header__link-icon {
+    margin-right: 0.833vw;
+  }
+  
+  .header__link-bg {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .header__search {
+    width: 50.833vw;
+    margin: 0 auto;
+    height: 3.542vw;
+    position: relative;
+    padding-top: 0.99vw;
+  
+    &:after {
+      content: '';
+      position: absolute;
+      top: 0.99vw;
+      border-bottom: 1px dashed #21caff;
+      opacity: 0.5;
+      width: 34.635vw;
+      left: 5.833vw;
+    }
+  }
+  
+  .header__search-bg {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -0.313vw;
+    bottom: 0;
+    width: 50.6vw;
+    height: 7.4vh;
+  }
+  
+  .header__search-contains {
+    z-index: 1;
+    position: relative;
+    display: flex;
+    align-items: center;
+    max-width: 39.063vw;
+    margin: 0 auto;
+  }
+  
+  .header__search-submit {
+    flex: 0 0 auto;
+    margin-right: 0.573vw;
+  }
+  
+  .header__search-input {
+    padding: 0.625vw 0;
+    color: #fff;
+  }
+  
+  .header__link {
+    position: absolute;
+    right: 4.479vw;
+    top: 2.188vw;
+    width: 10.781vw;
+    height: 7vh;
+    display: flex;
+    align-items: center;
+    padding-left: 0.938vw;
+    padding-bottom: 0.625vw;
+  }
+  
+  .header__bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+  }
+  
+  svg {
+    fill: transparent;
+  }
+  
+  .priority__btn {
+    position: absolute;
+    left: 19.479vw;
+    top: 2.188vw;
+    width: 8.781vw;
+    height: 2.4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  .priority__btn-border {
+    left: 0;
+    width: 8.781vw;
+    height: 2.708vw;
+    position: absolute;
+  }
+  
+  .priority__btn-text {
+    font-size: 0.72vw;
+    color: #fb9b2b;
+    text-transform: uppercase;
+    font-weight: 700;
+  }

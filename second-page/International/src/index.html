@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="bg"></div>
+	
+		<header class="header">
+			<form action="/" class="header__search">
+				<svg fill="none" xmlns="http://www.w3.org/2000/svg" class="header__search-bg">
+					<use href="./assets/img/sprite.svg#search-bg-icon"></use>
+				</svg>
+			
+				<div class="header__search-contains">
+					<button type="submit" class="header__search-submit">
+					<svg width="0.885vw" height="1.8vh">
+						<use href="./assets/img/sprite.svg#search-icon"></use>
+					</svg>
+					</button>
+					<input type="search" class="header__search-input" placeholder="Поиск" />
+				</div>
+			</form>
+		
+			<button class="header__link" id="rec_click" v-on:click="r_click">
+			<svg class="header__link-icon" width="1.042vw" height="3.2vh" fill="none">
+				<use href="./assets/img/sprite.svg#user-icon"></use>
+			</svg>
+		
+			<span class="header__link-text">ректор</span>
+		
+			<svg class="header__link-bg" fill="none">
+				<use href="./assets/img/sprite.svg#link-icon"></use>
+			</svg>
+			</button>
+		
+			<svg fill="none" xmlns="http://www.w3.org/2000/svg" class="header__bg" width="4.531vw" height="30.104vw">
+				<use href="./assets/img/sprite.svg#header-bg-icon"></use>
+			</svg>
+	</header>
+
+	<main class="layout">
+
+		<div class="top_pagination">
+			<div class="go_to_home">
+			  <svg width="8vw" height="2.4vw" viewBox="0 0 160 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M0.5 38V38.2071L0.646447 38.3536L13.6464 51.3536L13.7929 51.5H14H158.5H159V51V11V10.7929L158.854 10.6464L148.854 0.646447L148.707 0.5H148.5H1H0.5V1V38Z" stroke="#217AFF" stroke-opacity="0.4"/>
+				<path d="M31.75 32.6518L21.7222 25.5L31.75 18.3482L31.75 32.6518Z" stroke="#217AFF" stroke-width="2"/>
+			  </svg>
+			  <span>
+				  На главную
+				</span>
+			</div>
+		</div>
+
+		<div class="international">
+
+			<div class="international__title">Международная деятельность</div>
+			
+			<div class="international__wrap">
+				<div class="international__unions">
+					<svg class="international__block-bg" viewBox="0 0 410 535" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M1 24.9758V521.09V521.828L17.5202 534H112.637L121.147 527.729H142.173L148.18 532.525H185.726L197.24 523.672H294.36L305.874 532.525H393.982L409 521.09V21.6561L390.477 8.0083H262.32L252.809 1H210.757L201.245 8.0083H24.0282L1 24.9758Z" fill="#112054" fill-opacity="0.68" stroke="#217AFF" stroke-opacity="0.2"/>
+					</svg>
+					<div class="international__unions-title">Участие в международных объединениях</div>
+					<div class="international__unions-diagram">
+						<svg class="international__unions-diagram-center" viewBox="0 0 167 167" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<g filter="url(#filter0_d_1188:647)">
+								<circle cx="83.4964" cy="83.472" r="58.1712" transform="rotate(-5.5332 83.4964 83.472)" stroke="#217AFF" stroke-width="2"/>
+							</g>
+							<defs>
+								<filter id="filter0_d_1188:647" x="0.321045" y="0.296631" width="166.351" height="166.351" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+									<feFlood flood-opacity="0" result="BackgroundImageFix"/>
+										<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+									<feOffset/>
+									<feGaussianBlur stdDeviation="12"/>
+									<feColorMatrix type="matrix" values="0 0 0 0 0.395833 0 0 0 0 0.7825 0 0 0 0 1 0 0 0 1 0"/>
+									<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1188:647"/>
+									<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1188:647" result="shape"/>
+								</filter>
+							</defs>
+						</svg>
+
+						<div class="international__unions-diagram-wrap">
+							<div class="international__unions-diagram-value"></div>
+							<div class="international__unions-diagram-descr">объединений</div>
+						</div>
+
+						<svg class="international__unions-diagram-data" viewBox="0 0 269 269" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M175.102 19.4249C154.901 12.3223 133.186 10.6604 112.138 14.6059L119.495 53.8496C133.656 51.1949 148.267 52.3131 161.859 57.092L175.102 19.4249Z" fill="#6C38FF"/>
+							<path d="M110.236 2.87919C92.9496 6.07734 76.4623 12.649 61.7156 22.2189C46.9689 31.7889 34.2516 44.1697 24.2897 58.6545C14.3278 73.1393 7.3164 89.4444 3.65591 106.639C-0.00461447 123.833 -0.24259 141.58 2.95559 158.867C6.15374 176.153 12.7254 192.64 22.2954 207.387C31.8653 222.134 44.2461 234.851 58.7309 244.813C73.2157 254.775 89.5208 261.786 106.715 265.447C123.91 269.107 141.657 269.345 158.943 266.147L151.094 223.723C139.379 225.89 127.352 225.729 115.699 223.248C104.046 220.768 92.9958 216.016 83.1793 209.265C73.3629 202.513 64.9722 193.895 58.4866 183.901C52.0009 173.907 47.5473 162.733 45.3798 151.018C43.2124 139.303 43.3737 127.275 45.8544 115.622C48.3352 103.97 53.0869 92.9194 59.8382 83.1029C66.5895 73.2864 75.2082 64.8958 85.2021 58.4102C95.1961 51.9245 106.37 47.4708 118.085 45.3034L110.236 2.87919Z" fill="#4CD382"/>
+							<path d="M155.482 246.466C180.113 241.878 202.541 229.291 219.288 210.656C236.035 192.021 246.165 168.38 248.106 143.401C250.047 118.422 243.69 93.5002 230.023 72.5021C216.355 51.504 196.14 35.603 172.513 27.2657L160.321 61.8168C176.341 67.47 190.048 78.2517 199.315 92.4895C208.583 106.727 212.893 123.625 211.577 140.563C210.261 157.5 203.392 173.529 192.037 186.165C180.681 198.8 165.474 207.335 148.773 210.446L155.482 246.466Z" fill="#EF8E8E"/>
+						</svg>		
+					</div>
+
+					<div class="international__graphics-boby-unions"></div>
+				</div>
+				<div class="international__info">
+					<div class="international__info-block">
+						<img class="international__block-bg" src="./assets/img/international/grid.svg" alt="grid">
+						<div class="international__info-wrap">
+							<div class="international__info-title">Обучаются полностю или частично на иностранном языке</div>
+							<div class="international__info-descr">
+								<div class="international__info-value international__info-value_foreign-language">international__info-value_foreign-language</div>
+								<div class="international__info-subtitle">человек</div>
+							</div>
+						</div>
+					</div>
+					<div class="international__info-block">
+						<img class="international__block-bg" src="./assets/img/international/grid.svg" alt="grid">
+						<div class="international__info-wrap international__info-wrap_accreditation">
+							<div class="international__info-title">Получили сертификат о международной акредитации</div>
+							<div class="international__info-descr">
+								<div class="international__info-value international__info-value_accreditation">44</div>
+								<div class="international__info-subtitle">программы</div>
+							</div>
+						</div>
+					</div>
+					<div class="international__info-block">
+						<img class="international__block-bg" src="./assets/img/international/grid.svg" alt="grid">
+						<div class="international__info-wrap international__info-wrap_rate">
+							<div class="international__info-title international__info-title_rate">Рейтинг Вуза по QS WUR</div>
+							<div class="international__info-descr international__info-descr_rate">
+								<div class="international__info-value international__info-value_rate"></div>
+								<svg class="international__info-icon" viewBox="0 0 50 49" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path d="M25.9185 5.60447L25 3.47173L24.0815 5.60447L18.6384 18.244L4.93546 19.5149L2.62329 19.7294L4.36783 21.2619L14.7067 30.3445L11.681 43.7695L11.1704 46.0348L13.1671 44.8492L25 37.823L36.8329 44.8492L38.8296 46.0348L38.319 43.7695L35.2933 30.3445L45.6322 21.2619L47.3767 19.7294L45.0645 19.5149L31.3616 18.244L25.9185 5.60447Z" stroke="#FB9B2B" stroke-width="2"/>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="international__data">
+					<div class="international__data-additional-programmes international__data-block">
+						<svg class="international__block-bg" viewBox="0 0 418 404" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 37.0414V383.593V384.702L17.5 403H112.5L121 393.574H142L148 400.782H185.5L197 387.474H291L302.5 400.782H402.5L417 383.593V32.051L399 11.5352H254L244.5 1H202.5L193 11.5352H24L1 37.0414Z" fill="#112054" fill-opacity="0.68" stroke="#217AFF" stroke-opacity="0.2"/>
+						</svg>
+
+						<div class="international__data-wrap">
+							<div class="international__data-title">Численность обученных иностранных студентов на дополнительных программах</div>
+							<div class="international__data-body international__data-body_additional-programmes"></div>
+
+						</div>
+					</div>
+					<div class="international__data-students international__data-block">
+						<svg class="international__block-bg" viewBox="0 0 418 376" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 34.531V356.945V357.977L17.5 375H112.5L121 366.23H142L148 372.937H185.5L197 360.556H291L302.5 372.937H402.5L417 356.945V29.8883L399 10.8014H254L244.5 1H202.5L193 10.8014H24L1 34.531Z" fill="#112054" fill-opacity="0.68" stroke="#217AFF" stroke-opacity="0.2"/>
+						</svg>
+						<div class="international__data-wrap international__data-wrap_students">
+							<div class="international__data-header">
+								<div class="international__data-title">Количество иностранных обучающихся</div>
+								<div class="international__data-header-descr">
+									<div class="international__data-header-value">3 915</div>
+									<div class="international__data-header-subtitle">за отчётный год</div>
+								</div>
+							</div>
+							
+							<div class="international__data-body international__data-body_students"></div>
+
+						</div>
+					</div>
+					<div class="international__data-resources international__data-block">
+						<svg class="international__block-bg" viewBox="0 0 418 393" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 36.0552V373.124V374.203L17.5 392H112.5L121 382.832H142L148 389.843H185.5L197 376.899H291L302.5 389.843H402.5L417 373.124V31.2014L399 11.2469H254L244.5 1H202.5L193 11.2469H24L1 36.0552Z" fill="#112054" fill-opacity="0.68" stroke="#217AFF" stroke-opacity="0.2"/>
+						</svg>
+
+						<div class="international__data-wrap international__data-wrap_resources">
+							<div class="international__data-header international__data-header_resources">
+								<div class="international__data-title international__data-title_resources">Объем средств, полученных от иностранных источников</div>
+								<div class="international__data-header-subtitle international__data-header-subtitle_resources">за отчётный год</div>
+							</div>
+							
+							<div class="international__data-body international__data-body_resources"></div>
+
+							<div class="international__diagram-wrap">
+								<div class="international__diagram-body">
+									<div class="international__diagram-body-item ">
+										<div class="international__diagram-body-value international__diagram-body-value_citizens"></div>
+										<div class="international__diagram-body-сolumn  international__diagram-body-сolumn_citizens international__diagram-column_resources"></div>
+									</div>
+									<div class="international__diagram-body-item ">
+										<div class="international__diagram-body-value international__diagram-body-value_organisations"></div>
+										<div class="international__diagram-body-сolumn international__diagram-body-сolumn_organisations international__diagram-column_resources"></div>
+									</div>
+								</div>
+								
+								<svg class="international__diagram-base" viewBox="0 0 235 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<rect y="6" width="235" height="1" fill="#B2CEF6"/>
+									<rect x="-1.42136" width="6.97486" height="6.97486" transform="matrix(0.71068 -0.703515 0.71068 0.703515 40.5888 5.50005)" fill="white" stroke="#217AFF" stroke-width="2"/>
+									<rect x="168.586" y="6.53564" width="7" height="7" transform="rotate(-45 168.586 6.53564)" fill="white" stroke="#FB9B2B" stroke-width="2"/>
+								</svg>
+									
+								<div class="international__diagram-legend">
+									<div class="international__diagram-legend-item">от граждан</div>
+									<div class="international__diagram-legend-item">от организаций</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="international__data-foreign-languages international__data-block">
+						<svg class="international__block-bg" viewBox="0 0 418 258" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M1 23.9517V244.641V245.348L17.5 257H112.5L121 250.997H142L148 255.588H185.5L197 247.113H291L302.5 255.588H402.5L417 244.641V20.7738L399 7.70897H254L244.5 1H202.5L193 7.70897H24L1 23.9517Z" fill="#112054" fill-opacity="0.68" stroke="#217AFF" stroke-opacity="0.2"/>
+						</svg>
+
+						<div class="international__data-wrap international__data-wrap_foreign-languages">
+								<div class="international__data-title international__data-title">Изучаемые инстранные языки</div>
+
+							
+							<div class="international__data-body international__data-body_foreign-languages"></div>
+
+						</div>
+					</div>
+				</div>
+				
+			</div>
+	
+		</div>	
+	</main>
+
+	<footer class="footer">
+		<svg class="footer__img">
+			<use href="./assets/img/sprite.svg#footer-bg-icon"></use>
+		</svg>
+
+		<a href="/" class="footer__logo">
+			<img src="./assets/img/logo.svg" alt="" />
+		</a>
+
+		<div class="footer__btns">
+			<div class="footer__btns-item">
+				<button class="footer__btns-btn">
+					<svg class="footer__btns-icon" width="9.844vw" height="3.385vw">
+						<use href="./assets/img/sprite.svg#footer-btn1"></use>
+					</svg>
+
+					<span class="footer__btns-text">Проверки</span>
+
+					<span class="footer__btns-val">0</span>
+				</button>
+			</div>
+
+			<div class="footer__btns-item">
+				<button class="footer__btns-btn btn--large">
+					<svg class="footer__btns-icon" width="10.677vw" height="3.438vw">
+						<use href="./assets/img/sprite.svg#footer-btn2"></use>
+					</svg>
+
+					<span class="footer__btns-text">Трансляции экзаменов</span>
+				</button>
+			</div>
+		</div>
+	</footer>
+	</div>
+	
+
+	<script src="./js/international.js"></script>
+</body>
+</html>	
