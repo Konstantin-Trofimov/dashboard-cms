@@ -1388,6 +1388,7 @@
         padding-top: 2.5vw;
 
         .international {
+            position: relative;
             cursor: pointer;
             width: 22.6vw;
             height: 15.2vw;
@@ -1412,7 +1413,8 @@
                 height: 100%;
                 top: -1.8vw;
                 left: 0.6vw;
-                z-index: 5;
+                // z-index: 5;
+                z-index: 999;
             }
 
             &__info {
@@ -1435,6 +1437,16 @@
 
             &__divider {
                 width: 4.9vw;
+
+                &_middle {
+                    position: relative;
+                    left: 1.6vw;
+                }
+
+                &_bottom {
+                    position: relative;
+                    left: 0.7vw;
+                }
             }
 
             &__icon {

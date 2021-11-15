@@ -543,7 +543,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         categories: {
             occupation: {
-                fullTime: 31064,
+                fullTime: 30164,
                 distance: 5634,
                 extramural: 7061
             },
@@ -616,6 +616,12 @@ document.addEventListener('DOMContentLoaded', () => {
         graphics[2].setAttribute('width', categoryRatio(data.occupation.extramural, occupationSum));
         graphics[3].setAttribute('width', categoryRatio(data.payment.public, paymentSum));
         graphics[4].setAttribute('width', categoryRatio(data.payment.nonBudget, paymentSum));
+
+        insertToPage('students__graphic-value_fullTime', numDataOutput(data.occupation.fullTime));
+        insertToPage('students__graphic-value_distance', numDataOutput(data.occupation.distance));
+        insertToPage('students__graphic-value_extramural', numDataOutput(data.occupation.extramural));
+        insertToPage('students__graphic-value_public', numDataOutput(data.payment.public));
+        insertToPage('students__graphic-value_nonBudget', numDataOutput(data.payment.nonBudget));
     }
 
     studentsCategoryDataOutput(staffData.categories)

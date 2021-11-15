@@ -82,7 +82,6 @@ body {
   font-family: "Oswald", $bv-helvetica;
   font-size: 13px;
   font-weight: 400;
-  min-width: 1920px;
   margin: 0 auto;
   line-height: normal;
   color: #fff;
@@ -93,8 +92,3 @@ body {
   overflow: hidden auto;
 }
 
-@media(max-width: 1920px) {
-  body {
-      min-width: 1000px;
-  }
-}
