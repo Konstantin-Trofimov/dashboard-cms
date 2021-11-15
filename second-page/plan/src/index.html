@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<div class="bg"></div>
+	
+		<header class="header">
+			<form action="/" class="header__search">
+				<svg fill="none" xmlns="http://www.w3.org/2000/svg" class="header__search-bg">
+					<use href="./assets/img/sprite.svg#search-bg-icon"></use>
+				</svg>
+			
+				<div class="header__search-contains">
+					<button type="submit" class="header__search-submit">
+					<svg width="0.885vw" height="1.8vh">
+						<use href="./assets/img/sprite.svg#search-icon"></use>
+					</svg>
+					</button>
+					<input type="search" class="header__search-input" placeholder="Поиск" />
+				</div>
+			</form>
+		
+			<button class="header__link" id="rec_click" v-on:click="r_click">
+			<svg class="header__link-icon" width="1.042vw" height="3.2vh" fill="none">
+				<use href="./assets/img/sprite.svg#user-icon"></use>
+			</svg>
+		
+			<span class="header__link-text">ректор</span>
+		
+			<svg class="header__link-bg" fill="none">
+				<use href="./assets/img/sprite.svg#link-icon"></use>
+			</svg>
+			</button>
+		
+			<svg fill="none" xmlns="http://www.w3.org/2000/svg" class="header__bg" width="4.531vw" height="30.104vw">
+				<use href="./assets/img/sprite.svg#header-bg-icon"></use>
+			</svg>
+	</header>
+
+	<main class="layout">
+
+		<div class="top_pagination">
+			<div class="go_to_home">
+			  <svg width="8vw" height="2.4vw" viewBox="0 0 160 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+				<path d="M0.5 38V38.2071L0.646447 38.3536L13.6464 51.3536L13.7929 51.5H14H158.5H159V51V11V10.7929L158.854 10.6464L148.854 0.646447L148.707 0.5H148.5H1H0.5V1V38Z" stroke="#217AFF" stroke-opacity="0.4"/>
+				<path d="M31.75 32.6518L21.7222 25.5L31.75 18.3482L31.75 32.6518Z" stroke="#217AFF" stroke-width="2"/>
+			  </svg>
+			  <span>
+				  На главную
+				</span>
+			</div>
+		</div>
+
+		<div class="plan">
+			<div onmousedown="return false" onselectstart="return false" class="plan__tabheader">
+			
+				<div class="plan__tabitem plan__tabitem-prev">
+					<svg viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M80.9858 109L109 80.9858V1H22.4142L1 22.4142V109H80.9858Z"/>	
+					</svg>
+					<div class="plan__tabitem-value">&lt;</div>	
+				</div>
+				<div class="plan__tabheader-btns"></div>
+				<div class="plan__tabitem plan__tabitem-next">
+					<svg viewBox="0 0 110 110" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M80.9858 109L109 80.9858V1H22.4142L1 22.4142V109H80.9858Z"  stroke="#217AFF"/>	
+					</svg>
+					<div class="plan__tabitem-value">&gt;</div>	
+				</div>
+				
+
+			</div>
+			
+			<div class="plan__tabcontainer"></div>
+		</div>
+
+				
+			</div>
+		</div>	
+	</main>
+
+	<footer class="footer">
+		<svg class="footer__img">
+			<use href="./assets/img/sprite.svg#footer-bg-icon"></use>
+		</svg>
+
+		<a href="/" class="footer__logo">
+			<img src="./assets/img/logo.svg" alt="" />
+		</a>
+
+		<div class="footer__btns">
+			<div class="footer__btns-item">
+				<button class="footer__btns-btn">
+					<svg class="footer__btns-icon" width="9.844vw" height="3.385vw">
+						<use href="./assets/img/sprite.svg#footer-btn1"></use>
+					</svg>
+
+					<span class="footer__btns-text">Проверки</span>
+
+					<span class="footer__btns-val">0</span>
+				</button>
+			</div>
+
+			<div class="footer__btns-item">
+				<button class="footer__btns-btn btn--large">
+					<svg class="footer__btns-icon" width="10.677vw" height="3.438vw">
+						<use href="./assets/img/sprite.svg#footer-btn2"></use>
+					</svg>
+
+					<span class="footer__btns-text">Трансляции экзаменов</span>
+				</button>
+			</div>
+		</div>
+	</footer>
+	</div>
+	
+
+	<script src="./js/plan.js"></script>
+</body>
+</html>	

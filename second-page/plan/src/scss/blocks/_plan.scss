@@ -1,0 +1,227 @@
+.plan {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+
+    &__tabheader {
+        position: absolute;
+        width: 15vw;
+        height: 2.4vw;
+        top: 2vw;
+        left: 12.5vw;
+        display: flex;
+        justify-content: space-between;
+
+        &-btns {
+            display: flex;
+            justify-content: space-evenly;
+            width: 10vw;
+
+        }
+    }
+
+    &__tabitem {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 2.4vw;
+        height: 100%;
+        cursor: pointer;
+        z-index: 1000;
+
+        svg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            z-index: 1;
+            stroke-opacity: 0.4;
+            stroke-width: 2;
+            stroke: #217AFF;
+        }
+
+        &-value {
+            font-family: Oswald;
+            font-weight: 700;
+            font-size: 0.625vw;
+            color: #217AFF;
+            opacity: 0.4;
+            z-index: 0;
+        }
+
+        &_active {
+            svg {
+                stroke-opacity: 1;
+            }
+
+            .plan__tabitem-value {
+                opacity: 1;
+            }
+        }
+    }
+
+    &__tabcontainer {
+        margin-top: 5.4vw;
+        width: 85.5vw;
+    }
+
+    &__tabcontent {
+        width: 100%;
+        height: 100%;
+
+        &-wrap {
+            width: 100%;
+            height: 100%;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: max-content;
+            grid-column-gap: 2vw;
+            position: relative;
+        }
+
+        &-element {
+            position: relative;
+        }
+
+        &-block {
+            position: relative;
+            width: 100%;
+            height: max-content;
+           
+            &__bg {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 1;
+                width: 100%;
+                height: 100%;
+            }
+
+            &__wrap {
+                position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                z-index: 2;
+                width: 100%;
+                height: 100%;
+                padding: 1.2vw 1.6vw 1.3vw;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+
+                &_total {
+                    padding: 0.5vw 1.6vw 3.3vw;
+                }
+
+                &_include-two-items {
+                    justify-content: start;
+
+                    .plan__tabcontent-block__item {
+                        margin-bottom: 1vw;
+                    }
+                }
+            }
+
+            &__item {
+                position: relative;
+                width: 100%;
+            }
+
+            &__info {
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: flex-end;
+
+                &_bottom {
+                    height: 1vw;
+                }
+            }
+
+            &__descr {
+                font-family: Oswald;
+                font-weight: 400;
+                font-size: 0.9vw;
+                letter-spacing: 0.03em;
+                color: #FFFFFF;
+                line-height: 1.2vw;
+                max-width: 17vw;
+
+                &_total {
+                    font-family: Oswald;
+                    font-weight: 400;
+                    font-size: 1.9vw;
+                    letter-spacing: 0.03em;
+                    text-transform: uppercase;
+                    color: #FB9B2B;
+                }
+            }
+
+            &__value {
+                font-family: Oswald;
+                font-weight: 400;
+                font-size: 1.5vw;
+                color: #FFFFFF;
+                text-align: right;
+            }
+
+            &__progressbar {
+                margin-top: 0.1vw;
+                width: 100%;
+                height: 1.8vw;
+            }
+
+            &__divider {
+                width: 18.5vw;
+                height: 1vw;
+            }
+
+            &__current-plan {
+                &-value, &-descr {
+                    font-family: 400;
+                    font-weight: 500;
+                    font-size: 0.6vw;
+                    color: #FFFFFF;
+                    text-align: right;
+                }
+            }
+
+            &_total {
+                margin: 3vw 0 1vw;
+                height: 7vw;
+            }
+        }
+    }   
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade { 
+    from {
+        opacity: 0.1;
+    }
+    to {
+        opacity: 1;
+    }
+}
