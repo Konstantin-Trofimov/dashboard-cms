@@ -1,0 +1,410 @@
+.finance {
+    position: relative;
+    // height: 100%;
+    top: 7.5vw;
+    left: 6vw;
+
+    &__title {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    &__wrap {
+        display: flex;
+    }
+
+    &__diagramm {
+        position: relative;
+        left: -1.5vw;
+        width: 31vw;
+        height: 33vw;
+        
+        &-center {
+            position: relative;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 16.5vw;
+            height: 16.5vw;
+        }
+
+        &-info {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 54%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &-title {
+            font-family: Montserrat;
+            font-weight: 700;
+            text-transform: uppercase;
+            font-size: 1.4vw;
+            color: #FFFFFF;
+        }
+
+        &-value {
+            font-family: Oswald;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 2.4vw;
+            color: #FFFFFF;
+            margin-top: 0.5vw;
+        }
+
+        &-descr, &-date {
+            font-family: Oswald;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.8vw;
+            color: #627DAE;
+        }
+
+        &-data {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            height: 35vw;
+            width: 35vw;
+        }
+
+        &-ellipse {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+    }
+
+    &__data {
+        width: 25vw;
+        height: 34.5vw;
+        margin-top: -2.9vw;
+
+        &-block {
+            position: relative;
+            width: auto;
+
+            img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+
+            svg {
+                position: absolute;
+                top: -0.4vw;
+                left: 1.7vw;
+                width: 1.2vw;
+                height: 1.2vw;
+            }
+        }
+
+        &-wrap {
+            width: 100%;
+            height: 100%;
+            padding: 1.4vw 1.3vw;   
+        }
+
+        &-descr {
+            font-weight: normal;
+            font-size: 0.9vw;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+        }
+
+        &-value {
+            margin-top: 0.5vw;
+            font-weight: normal;
+            font-size: 1.3vw;
+            color: #FFFFFF;
+
+            sup {
+                font-size: 0.9vw;
+                vertical-align:super;
+                padding-bottom: 1vw;
+            }
+        }
+
+        &-state-assignment {
+            height: 8.1vw; 
+        }
+
+        &-social-benefits { 
+            height: 8.1vw;
+            margin-top: 1.5vw;
+        }
+
+        &-currency { 
+            height: 6.5vw;
+            margin-top: 1.7vw;
+        }
+
+        &-scholarship-support {
+            width: 11.4vw;
+        }
+
+        &-double {
+            height: 7vw;
+            margin-top: 1.9vw;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-cashbox {
+            width: 10.5vw;
+            height: auto;
+
+            .finance__data-wrap {
+                padding: 1.4vw 0 0 1.3vw;  
+            }
+            
+        }
+        
+        &-interim-order {
+            width: 14vw;
+            height: auto;
+        }
+
+        &-subsidies {
+            width: 12.8vw;
+        }
+    }
+    
+    &__info {
+        margin-left: 1.7vw;
+        width: 28vw;
+        height: 36vw;
+        position: relative;
+
+        &-bg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        &-wrap {
+            position: relative;
+            width: 100%;
+            padding: 100%;
+            padding: 2.1vw 1.7vw;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        &-block {
+            min-height: 10vw;
+        }
+
+        &-tax {
+            .finance__info-point-left, .finance__info-ratio-left, .finance__info-sum-left {
+                color: #FB9B2B;
+            }
+
+            .finance__info-point-right, .finance__info-ratio-right, .finance__info-sum-right {
+                color: #FFDD85;
+            }
+
+            .finance__info-point-center, .finance__info-ratio-center, .finance__info-sum-center {
+                color: #AB8E6D;
+            }
+           
+        }
+
+        &-wage-fund {
+            margin-top: 0.6vw;
+            .finance__info-point-left, .finance__info-ratio-left, .finance__info-sum-left {
+                color: #217AFF;
+            }
+
+            .finance__info-point-right, .finance__info-ratio-right, .finance__info-sum-right {
+                color: #2BD6FB;
+            }
+
+        }
+
+        &-base {
+            margin-top: 1.6vw;
+            .finance__info-point-left, .finance__info-ratio-left, .finance__info-sum-left {
+                color: #A7EB17;
+            }
+
+            .finance__info-point-right, .finance__info-ratio-right {
+                color: #EDFFC0;
+            }
+
+            .finance__info-point-center, .finance__info-ratio-center, .finance__info-sum-center {
+                color: #71814F;
+            }
+
+            .finance__info-sum-right {
+                color: #FB9B2B;
+            }
+
+            .finance__info-point-right {
+                margin-right: 3.5vw;
+            }
+        }
+ 
+        &-descr, &-point, &-ratio, &-sum {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        &-descr {
+            position: relative;
+        }
+
+        &-header {
+            font-weight: normal;
+            font-size: 0.9vw;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+        }
+
+        &-subheader {
+            margin-left: 0.2vw;
+            font-family: Oswald;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 0.6vw;
+            color: #627DAE;
+        }
+
+        &-total {
+            position: relative;
+            font-weight: 500;
+            font-size: 1.4vw;
+            color: #FFFFFF;
+
+            sup {
+                position: absolute;
+                top: 0.2vw;
+                right: 0;
+                font-size:xx-small;
+                vertical-align:top;
+                font-size: 0.5vw;
+            }
+            
+            sub {
+                position: relative;
+                top: -0.2vw;
+                font-size: 0.5vw;
+                vertical-align:bottom;
+            }  
+        }
+
+        &-point {
+            position: relative;
+            margin-top: 0.7vw;
+            font-weight: normal;
+            font-size: 0.75vw;
+
+            &-right {
+                text-align: right;
+            }
+
+            &-center {
+               &_estate {
+                    padding-top: 1vw;
+                    margin-left: -1.2vw;
+               }
+            }
+        }
+
+        .prompt {
+            position: absolute;
+            height: 1.5vw;
+            
+
+            img {
+                height: 100%;
+                width: 100%;
+            }
+
+            &__text {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                font-weight: normal;
+                font-size: 0.45vw;
+                color: #217AFF;
+            }
+
+            &_small {
+                top: 0.35vw;
+                left: 3.8vw;
+                width: 3vw;
+            }
+
+          
+
+            &_middle {
+                top: 0.35vw;
+                right: 0;
+                width: 3.3vw; 
+            } 
+
+            &_large {
+                top: 0.35vw;
+                left: 8vw;
+                width: 4vw;
+                    
+            } 
+
+            &_diff {
+                top: 0.35vw;
+                left: 10.7vw;
+                width: 4.2vw; 
+            }
+        }
+
+        &-progressbar {
+            width: 100%;
+            height: 2vw;
+        }
+
+        &-ratio {
+            margin-top: 0.5vw;
+            font-weight: normal;
+            font-size: 0.6vw;
+        }
+
+        &-sum {
+            margin-top: 0.3vw;
+            font-weight: bold;
+            font-size: 0.8vw; 
+
+            &-left, &-right, &-center {
+                position: relative;
+
+                sub {
+                    position: relative;
+                    top: -0.1vw;
+                    right: 0;
+                    font-size: 0.4vw;
+                    vertical-align:bottom;
+                }  
+            }
+        }
+    }
+}
