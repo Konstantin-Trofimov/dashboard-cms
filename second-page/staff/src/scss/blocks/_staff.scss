@@ -1,0 +1,310 @@
+.staff {
+    position: relative;
+    width: 100%;
+    padding-top: 7.2vw;
+    padding-left: 0.4vw;
+    padding-bottom: 7.5vw;
+    
+   
+
+    &__title {
+        margin-left: 4.5vw;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1.5vw;
+        letter-spacing: 0.05em;
+        color: #FFFFFF;
+    }
+
+    &__wrap {
+        position: relative;
+        display: flex;
+        justify-content: center; 
+    }
+
+    &__diagramm {
+        position: relative;
+        margin-top: 0.5vw;
+        width: 32vw;
+        height: 32vw;
+
+        &-center {
+            position: relative;
+            top: 57%;
+            left: 53%;
+            transform: translate(-50%, -50%);
+            width: 18.5vw;
+            height: 18.5vw;
+        }
+
+        &-info {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 54%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        &-title {
+            font-family: Montserrat;
+            font-weight: 700;
+            font-size: 1.5vw;
+            margin-top: 1vw;
+            text-transform: uppercase;
+            color: #FFFFFF;
+        }
+
+        &-value {
+            font-family: Oswald;
+            font-weight: 400;
+            font-size: 4.5vw;
+            line-height: 5vw;
+            color: #FFFFFF;
+        }
+
+        &-descr {
+            font-family: Montserrat;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 2vw;
+            font-size: 0.85vw;
+            text-transform: uppercase;
+        }
+
+        &-date {
+            text-align: center;
+            font-family: Oswald;
+            font-weight: 400;
+            font-size: 0.8vw;
+            color: #627DAE;
+        }
+
+        &-ellipse {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 100%;
+        }
+
+        &-data {
+            position: absolute;
+            top: 51%;
+            left: 62%;
+            transform: translate(-50%, -50%);
+            height: 47.5vw;
+            width: 47.5vw;
+        }
+    }
+
+    &__data {
+        margin-top: 1.8vw;
+        margin-left: 1.7vw;
+        width: 27vw;
+        height: 36.8vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        
+        &-block {
+            height: 5vw;
+            position: relative;
+            width: auto;
+            img {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+            }
+        }
+
+        &-wrap {
+            width: 100%;
+            height: 100%;
+            padding: 0.1vw 1.6vw 0 1.8vw;   
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        &-descr, &-value {
+            font-family: Oswald;
+            font-weight: 400;    
+            color: #FFFFFF;
+        }
+
+        &-descr {   
+            font-size: 0.92vw;
+            letter-spacing: 0.05em;
+        }
+
+        &-value {
+            font-size: 1.5vw;
+        }
+    }
+
+    &__info {
+        margin-top: 1.5vw;
+        margin-left: 1.7vw;
+        width: 29.5vw;
+        height: 37.1vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        &-graduation-pps, &-graduation-nr {
+            position: relative;
+            width: auto;
+        }
+
+        &-graduation-pps {
+            height: 47%;
+        }
+
+        &-graduation-nr {
+            height: 50%;
+        }
+
+        &-bg {
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            right: 0;
+            left: 0;
+            z-index: 1;
+        }
+
+        &-wrap {
+            position: relative;
+            width: 100%;
+            height: 17.9vw;
+            padding: 3.1vw 1.7vw;
+            z-index: 999;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            &_nr {
+                padding: 2.8vw 1.7vw;
+                height: 17.2vw;
+            }
+        }
+
+        &-block {
+            width: auto;
+        }
+
+        &-data {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        } 
+
+        &-descr {
+            display: flex;
+            align-items: center;
+        }
+
+        &-title {
+            font-family: Oswald;
+            font-weight: 400;
+            font-size: 1.25vw;
+            letter-spacing: 0.03em;
+            color: #FFFFFF;
+        }
+
+        &-subtitle {
+            width: 4vw;
+            font-family: Oswald;
+            font-weight: 400;
+            font-size: 0.5vw;
+            letter-spacing: 0.03em;
+            color: #627DAE;
+            margin-left: 0.3vw;
+        }
+
+        &-value {
+            font-family: Oswald;
+            font-weight: 500;
+            font-size: 64px;
+            font-size: 1.6vw;
+
+            &_orange {
+               color:  #FB9B2B;
+            }
+
+            &_blue {
+                color:  #217AFF;
+            }
+        }
+
+        &-progressbar {
+            width: 100%;
+            height: 2vw;
+        }
+    }
+
+    &__graphiс {
+        position: absolute;
+        left: 0.4vw;
+        top: -0.2vw;
+        height: 0.6vw;
+        z-index: 1000;
+
+        &-row, &-data {
+            height: 100%;
+        }
+
+        &-row {
+            height: 60%;
+        }
+
+        &-data {
+            overflow: visible;
+            width: 100%;
+        }
+
+        &-right-rect, &-left-rect {
+            transform-box: fill-box;
+            transform-origin: center;
+            transform: rotate(45deg);
+            width: 0.2em;
+            height: 0.2em;
+            stroke-width: 0.1em;
+
+            &_blue {
+                stroke: #217AFF;
+            }
+
+            &_pink {
+                stroke: #EF8E8E;
+            }
+
+            &_light-blue {
+                stroke: #2BD6FB;
+            }
+
+            &_grey {
+                stroke: #627DAE;
+            }
+
+            &_green {
+                stroke: #4CD382;
+            }
+
+            &_purple {
+                stroke: #6C38FF;
+            } 
+        }
+
+        &-left-rect {
+            overflow: hidden;
+        }         
+    }    
+}
