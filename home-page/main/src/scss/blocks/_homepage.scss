@@ -89,6 +89,8 @@
 
             &__diagram {
                 position: relative;
+
+                
                
                 &-data, &-center {
                     position: absolute;
@@ -113,10 +115,15 @@
                     font-family: Montserrat;
                     font-weight: 700;
                     font-size: 0.5vw;
-                    text-align: center;
-                    text-transform: uppercase;
                     line-height: 0.7vw;
                     color: #FFFFFF;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 40%;
+                    text-align: center;
+                    text-transform: uppercase;
                 }
 
                 &-value {
