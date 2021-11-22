@@ -638,9 +638,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 nonBudget: 33928
             },
             groups: {
-                bachelors: 14535,
-                specialists: 1360,
-                magisters: 2663
+                bachelors: 1214535,
+                specialists: 2421360,
+                magisters: 6422663
             }
             
         }
