@@ -202,38 +202,15 @@ document.addEventListener('DOMContentLoaded', () => {
         otherResources: 1572394226,
         wageFund: 2664439699,
         landTax: 65185520,
-        propertyTax: 45229727
+        propertyTax: 75229727
     }
 
 
-    const convertFinanceData = [
-        {
-            title: 'Из средств бюджета',
-            value: 1092045473
-        },
-        {
-            title: 'Из средств от иной приносящей доход деятельности',
-            value: 1572394226
-        },
-        {
-            title: 'Фондоплатытруда',
-            value: 2664439699
-        },
-        {
-            title: 'Земельный налог',
-            value: 65185520
-        },
-        {
-            title: 'Имущественный налог',
-            value: 45229727
-        },
-        
-    ]
-    wageFundDiagramData = convertFinanceData.slice(0, 2);
-    сostsDiagramData = convertFinanceData.slice(2, 5).reverse();
+ 
+
+    wageFundDiagramData = Object.values(financeData).slice(2, 4);
+    сostsDiagramData = Object.values(financeData).slice(4, 7).reverse();
     
-    
-    const getArray = data => data.map(i => i.value);
     
     class Diagram  {
         constructor (title, data, colors, parentSelector, isDecorated = false) {
@@ -251,10 +228,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     
         get diagramValues () { 
-            const values = this.data.map(i => i.value);
-            const sumValues = values.reduce((a, b) => a + b);
+            const sumValues = this.data.reduce((a, b) => a + b);
     
-            let array = values.map(i => Math.round( i / sumValues * 100));
+            let array = this.data.map(i => Math.round( i / sumValues * 100));
             let max = Math.max(...array);
            
             if (this.isDecorated) {
@@ -282,7 +258,6 @@ document.addEventListener('DOMContentLoaded', () => {
                         sum += array[j];
                     }
                     sum = 100 - sum;
-                   
                 }
             })    
             location = start + sum;
