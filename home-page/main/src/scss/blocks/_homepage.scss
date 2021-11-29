@@ -113,12 +113,17 @@
                     font-family: Montserrat;
                     font-weight: 700;
                     font-size: 0.5vw;
-                    text-align: center;
-                    text-transform: uppercase;
                     line-height: 0.7vw;
                     color: #FFFFFF;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 40%;
+                    text-align: center;
+                    text-transform: uppercase;
                 }
-
+                
                 &-value {
                     position: absolute;
                     font-family: Oswald;
@@ -1149,9 +1154,10 @@
                 &__diagram {
                     padding-top: 1.1vw;
                     position: relative;
+                    padding-right: 1vw;
 
                     &-month-text {
-                        margin-top: 0.1vw;
+                        margin-top: 0.3vw;
                         padding-right: 0.2vw;
                         font-family: Montserrat;
                         font-weight: 400;
@@ -1162,8 +1168,8 @@
                    
                     &-info {
                         position: absolute;
-                        width: 4vw;
-                        height: 3.3vw;
+                        width: 4.5vw;
+                        height: 3.5vw;
                         left: 9.6vw;
                         top: 1.2vw;
 
@@ -1182,15 +1188,15 @@
                         }
 
                         &__icon {
-                            width: 0.6vw;
-                            height: 0.6vw; 
+                            width: 0.4vw;
+                            height: 0.45vw; 
                         }
 
                         &__value {
                             font-family: Montserrat;
                             font-style: normal;
                             font-weight: 600;
-                            font-size: 0.4vw;
+                            font-size: 0.35vw;
                             color: #FFFFFF;
                             margin-left: 0.1vw;
                         }
@@ -1198,7 +1204,7 @@
         
                     &-data {
                         height: 6.2vw;
-                        width: 12vw;
+                        width: 10vw;
                     }
         
                     &-legend {
@@ -1667,7 +1673,7 @@
 
     .block {
         position: relative;
-        z-index: 0;
+        z-index: 1;
 
         &-bg {
             position: absolute;
