@@ -113,17 +113,12 @@
                     font-family: Montserrat;
                     font-weight: 700;
                     font-size: 0.5vw;
-                    line-height: 0.7vw;
-                    color: #FFFFFF;
-                    position: absolute;
-                    top: 50%;
-                    left: 50%;
-                    transform: translate(-50%, -50%);
-                    width: 40%;
                     text-align: center;
                     text-transform: uppercase;
+                    line-height: 0.7vw;
+                    color: #FFFFFF;
                 }
-                
+
                 &-value {
                     position: absolute;
                     font-family: Oswald;
@@ -1154,10 +1149,9 @@
                 &__diagram {
                     padding-top: 1.1vw;
                     position: relative;
-                    padding-right: 1vw;
 
                     &-month-text {
-                        margin-top: 0.3vw;
+                        margin-top: 0.1vw;
                         padding-right: 0.2vw;
                         font-family: Montserrat;
                         font-weight: 400;
@@ -1168,8 +1162,8 @@
                    
                     &-info {
                         position: absolute;
-                        width: 4.5vw;
-                        height: 3.5vw;
+                        width: 4vw;
+                        height: 3.3vw;
                         left: 9.6vw;
                         top: 1.2vw;
 
@@ -1188,15 +1182,15 @@
                         }
 
                         &__icon {
-                            width: 0.4vw;
-                            height: 0.45vw; 
+                            width: 0.6vw;
+                            height: 0.6vw; 
                         }
 
                         &__value {
                             font-family: Montserrat;
                             font-style: normal;
                             font-weight: 600;
-                            font-size: 0.35vw;
+                            font-size: 0.4vw;
                             color: #FFFFFF;
                             margin-left: 0.1vw;
                         }
@@ -1204,7 +1198,7 @@
         
                     &-data {
                         height: 6.2vw;
-                        width: 10vw;
+                        width: 12vw;
                     }
         
                     &-legend {
@@ -1673,7 +1667,7 @@
 
     .block {
         position: relative;
-        z-index: 1;
+        z-index: 0;
 
         &-bg {
             position: absolute;
