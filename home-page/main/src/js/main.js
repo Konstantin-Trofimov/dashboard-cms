@@ -204,7 +204,7 @@ document.addEventListener('DOMContentLoaded', () => {
     //=================== финансы =====================
 
     const financeData = {
-        date: '15.01.2021',
+        date: '1.01.2021',
         total: 600000000,
         budgetResources: 1092045473,
         otherResources: 1572394226,
@@ -325,7 +325,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     const internationalData = {
-        date: '07.10.2021',
+        date: '01.12.2021',
         foreignStudents: 1224,
         nonresidentStudents: 6556,
         partners: 'XX',
@@ -788,7 +788,9 @@ document.addEventListener('DOMContentLoaded', () => {
         function setMonthProgressBar() {
             const dayLast = new Date(year, currentMonth, 0).getDate();
             const ratio = 15 / dayLast;
-            const progressLength =  Math.round(+array[0] * ratio); 
+            let progressLength =  Math.round(+array[0] * ratio); 
+
+            if (progressLength < 1) progressLength = 1
             
             setCalendarProgressBar(monthProgressBar, progressLength, maxOpacity);
         }
