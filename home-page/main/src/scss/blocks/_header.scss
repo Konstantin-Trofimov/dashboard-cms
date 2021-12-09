@@ -1,3 +1,123 @@
+.topnav__btn {
+  position: absolute;
+  top: 2.2vw;
+  width: 8.781vw;
+  height: 2.4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+
+  &_portraits {
+    left: 10vw;
+  }
+
+  &_priority {
+    left: 18.2vw;
+  }
+
+  &_to-website {
+    top: 9.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    
+  }
+
+  &-border {
+    left: 0;
+    width: 8.781vw;
+    height: 2.708vw;
+    position: absolute;
+  }
+
+  &-text {
+    font-size: 0.95vw;
+    color: #fb9b2b;
+    text-transform: uppercase;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+  }
+}
+
+.admissions__btn {
+  position: absolute;
+  right: 18vw;
+  top: 1.2vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+} 
+
+.bachelor_degree{
+  position: absolute;
+  font-size: 1vw;
+  color: #fb9b2b;
+  text-transform: uppercase;
+  font-weight: 200;
+  right: 0.7vw;
+  top: 1.3vw;
+  cursor: pointer;
+}
+
+.master_degree{
+  position: absolute;
+  font-size: 1vw;
+  color: #fb9b2b;
+  text-transform: uppercase;
+  font-weight: 400;
+  right: 1.2vw;
+  top: 5.15vw;
+  cursor: pointer;
+}
+
+.admissions-text{
+  font-size: 1vw;
+  color: #217AFF;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 1.1vw;
+  position: absolute;
+  left: -3.9vw;
+  top: 3vw;
+}
+
+
+.portrets__btn-text {
+  font-size: 0.9vw;
+  text-transform: uppercase;
+  color: #fb9b2b;
+  font-weight: 500;
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    font-size: 1vw;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+}
+
+.layout-link__item {
+  padding: 0.781vw;
+}
+
+
+
+.priority__btn {
+  position: absolute;
+  left: 19.479vw;
+  top: 2.188vw;
+  width: 8.781vw;
+  height: 2.4vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 99;
+  @media (min-width: 768px) and (max-width: 1199.98px) {
+    left: 45.5vw;
+    top: 2.4vw;
+  }
+}
+
+
 .header {
     position: absolute;
     left: 0;
@@ -21,6 +141,13 @@
       letter-spacing: 0.1em;
       text-transform: uppercase;
       color: #217AFF;
+    }
+
+    &_covid {
+      font-size: 0.7vw;
+      margin-top: 0.8vw;
+      margin-left: -0.4vw;
+      font-weight: bold;
     }
   }
   
@@ -95,6 +222,10 @@
     align-items: center;
     padding-left: 0.938vw;
     padding-bottom: 0.625vw;
+
+    &_covid {
+      right: 18vw;
+    }
   }
   
   .header__bg {
@@ -122,124 +253,7 @@
     }
 }
   
-  .topnav__btn {
-    position: absolute;
-    top: 2.2vw;
-    width: 8.781vw;
-    height: 2.4vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 100;
 
-    &_portraits {
-      left: 10vw;
-    }
-
-    &_priority {
-      left: 18.2vw;
-    }
-
-    &_to-website {
-      top: 9.5%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      
-    }
-
-    &-border {
-      left: 0;
-      width: 8.781vw;
-      height: 2.708vw;
-      position: absolute;
-    }
-
-    &-text {
-      font-size: 0.95vw;
-      color: #fb9b2b;
-      text-transform: uppercase;
-      font-weight: 400;
-      letter-spacing: 0.05em;
-    }
-  }
-  
-  .admissions__btn {
-    position: absolute;
-    right: 18vw;
-    top: 1.2vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 99;
-  } 
-
-  .bachelor_degree{
-    position: absolute;
-    font-size: 1vw;
-    color: #fb9b2b;
-    text-transform: uppercase;
-    font-weight: 200;
-    right: 0.7vw;
-    top: 1.3vw;
-    cursor: pointer;
-  }
-
-  .master_degree{
-    position: absolute;
-    font-size: 1vw;
-    color: #fb9b2b;
-    text-transform: uppercase;
-    font-weight: 400;
-    right: 1.2vw;
-    top: 5.15vw;
-    cursor: pointer;
-  }
-
-  .admissions-text{
-    font-size: 1vw;
-    color: #217AFF;
-    font-weight: 400;
-    letter-spacing: 0.03em;
-    line-height: 1.1vw;
-    position: absolute;
-    left: -3.9vw;
-    top: 3vw;
-}
-
-
-  .portrets__btn-text {
-    font-size: 0.9vw;
-    text-transform: uppercase;
-    color: #fb9b2b;
-    font-weight: 500;
-    @media (min-width: 768px) and (max-width: 1199.98px) {
-      font-size: 1vw;
-      font-weight: bold;
-      text-transform: uppercase;
-    }
-  }
-
-  .layout-link__item {
-    padding: 0.781vw;
-  }
-
-
-
-  .priority__btn {
-    position: absolute;
-    left: 19.479vw;
-    top: 2.188vw;
-    width: 8.781vw;
-    height: 2.4vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 99;
-    @media (min-width: 768px) and (max-width: 1199.98px) {
-      left: 45.5vw;
-      top: 2.4vw;
-    }
-}
 
 .bg {
 	position: fixed;

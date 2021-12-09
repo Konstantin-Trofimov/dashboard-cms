@@ -1,0 +1,12 @@
+.table {
+    position: relative;
+    width: 100%;
+    padding-top: 7.2vw;
+    padding-bottom: 47.5vw;
+    &-img {
+        position: absolute;
+        top: 2vh;
+        width: 140%;
+        height: 52vw;
+    }   
+}

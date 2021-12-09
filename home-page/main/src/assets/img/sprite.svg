@@ -827,7 +827,7 @@
 		<path d="M173.5 414H186L183.5 416H171L173.5 414Z" fill="#217AFF" />
 	</symbol>
 	<symbol id="prior-2030" viewBox="0 0 149 52">
-<path
+	<path
           d="M148.5 38V38.3581L148.161 38.4734L109.941 51.4734L109.863 51.5H109.78H1H0.5V51V11V10.6419L0.838989 10.5266L30.239 0.526633L30.3173 0.5H30.4H148H148.5V1V38Z"
           fill="black"
           fill-opacity="0.1"
@@ -835,6 +835,8 @@
         />
 	</symbol>
 
-        
-    
+	
+    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 203 54" id="covid-frame">
+    	<path d="M202.5 39.48V39.8671L202.125 39.9641L149.865 53.4841L149.804 53.5H149.74H1.00002H0.500015V53V11.4V11.0129L0.874786 10.9159L41.0748 0.515937L41.1364 0.5H41.2H202H202.5V1V39.48Z" fill="black" fill-opacity="0.1" stroke="#FB9B2B"></path>
+  	</symbol>
 </svg>

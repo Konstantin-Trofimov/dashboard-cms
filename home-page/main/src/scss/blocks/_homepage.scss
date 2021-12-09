@@ -113,12 +113,17 @@
                     font-family: Montserrat;
                     font-weight: 700;
                     font-size: 0.5vw;
-                    text-align: center;
-                    text-transform: uppercase;
                     line-height: 0.7vw;
                     color: #FFFFFF;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%, -50%);
+                    width: 40%;
+                    text-align: center;
+                    text-transform: uppercase;
                 }
-
+                
                 &-value {
                     position: absolute;
                     font-family: Oswald;
@@ -383,7 +388,7 @@
 
                     &-icon {
                         display: inline-block;
-                        margin-left: 0.9vw;
+                        margin-left: 0.8vw;
                         width: 0.5vw;
                         height: 0.7vw;
 
@@ -411,13 +416,20 @@
                 height: 100%;
                 width: 100%;
 
+
+                svg {
+                    rect {
+                        transition: all 0.8s;
+                    }
+                }
+
                 &-value {
                     position: absolute;
                     font-family: Oswald;
                     font-weight: 400;
                     font-size: 0.58vw;
                     color: #FFFFFF;
-                    top: 0.9vw;
+                    top: 0.1vw;
                     left: -0.05vw;
                 }
 
@@ -1149,9 +1161,10 @@
                 &__diagram {
                     padding-top: 1.1vw;
                     position: relative;
+                    padding-right: 1vw;
 
                     &-month-text {
-                        margin-top: 0.1vw;
+                        margin-top: 0.3vw;
                         padding-right: 0.2vw;
                         font-family: Montserrat;
                         font-weight: 400;
@@ -1162,8 +1175,8 @@
                    
                     &-info {
                         position: absolute;
-                        width: 4vw;
-                        height: 3.3vw;
+                        width: 4.5vw;
+                        height: 3.5vw;
                         left: 9.6vw;
                         top: 1.2vw;
 
@@ -1182,15 +1195,15 @@
                         }
 
                         &__icon {
-                            width: 0.6vw;
-                            height: 0.6vw; 
+                            width: 0.4vw;
+                            height: 0.45vw; 
                         }
 
                         &__value {
                             font-family: Montserrat;
                             font-style: normal;
                             font-weight: 600;
-                            font-size: 0.4vw;
+                            font-size: 0.35vw;
                             color: #FFFFFF;
                             margin-left: 0.1vw;
                         }
@@ -1198,7 +1211,7 @@
         
                     &-data {
                         height: 6.2vw;
-                        width: 12vw;
+                        width: 10vw;
                     }
         
                     &-legend {
@@ -1667,7 +1680,7 @@
 
     .block {
         position: relative;
-        z-index: 0;
+        z-index: 1;
 
         &-bg {
             position: absolute;
@@ -1822,69 +1835,69 @@
     padding-left: 1.2vw;
 }   
 
-.absolute-progrss-bar-item-1  { animation: change_fill_absolute 3.1s;}
-.absolute-progrss-bar-item-2  { animation: change_fill_absolute 3s; animation-delay: 0.1s; }
-.absolute-progrss-bar-item-3  { animation: change_fill_absolute 2.9s; animation-delay: 0.2s; }
-.absolute-progrss-bar-item-4  { animation: change_fill_absolute 2.8s; animation-delay: 0.3s; }
-.absolute-progrss-bar-item-5  { animation: change_fill_absolute 2.7s; animation-delay: 0.4s; }
-.absolute-progrss-bar-item-6  { animation: change_fill_absolute 2.6s; animation-delay: 0.5s; }
-.absolute-progrss-bar-item-7  { animation: change_fill_absolute 2.5s; animation-delay: 0.6s; }
-.absolute-progrss-bar-item-8  { animation: change_fill_absolute 2.4s; animation-delay: 0.7s; }
-.absolute-progrss-bar-item-9  { animation: change_fill_absolute 2.3s; animation-delay: 0.8s; }
-.absolute-progrss-bar-item-10 { animation: change_fill_absolute 2.2s; animation-delay: 0.9s; }
-.absolute-progrss-bar-item-11 { animation: change_fill_absolute 2.1s; animation-delay: 1s;   }
-.absolute-progrss-bar-item-12 { animation: change_fill_absolute 2s; animation-delay: 1.1s; }
-.absolute-progrss-bar-item-13 { animation: change_fill_absolute 1.9s; animation-delay: 1.2s; }
-.absolute-progrss-bar-item-14 { animation: change_fill_absolute 1.8s; animation-delay: 1.3s; }
-.absolute-progrss-bar-item-15 { animation: change_fill_absolute 1.7s; animation-delay: 1.4s; }
-.absolute-progrss-bar-item-16 { animation: change_fill_absolute 1.6s; animation-delay: 1.5s; }
-.absolute-progrss-bar-item-17 { animation: change_fill_absolute 1.5s; animation-delay: 1.6s; }
-.absolute-progrss-bar-item-18 { animation: change_fill_absolute 1.4s; animation-delay: 1.7s; }
-.absolute-progrss-bar-item-19 { animation: change_fill_absolute 1.3s; animation-delay: 1.8s; }
-.absolute-progrss-bar-item-20 { animation: change_fill_absolute 1.2s; animation-delay: 1.9s; }
-.absolute-progrss-bar-item-21 { animation: change_fill_absolute 1.1s; animation-delay: 2s;   }
-.absolute-progrss-bar-item-22 { animation: change_fill_absolute 1s; animation-delay: 2.1s; }
-.absolute-progrss-bar-item-23 { animation: change_fill_absolute 0.9s; animation-delay: 2.2s; }
-.absolute-progrss-bar-item-24 { animation: change_fill_absolute 0.8s; animation-delay: 2.3s; }
-.absolute-progrss-bar-item-25 { animation: change_fill_absolute 0.7s; animation-delay: 2.4s; }
-.absolute-progrss-bar-item-26 { animation: change_fill_absolute 0.6s; animation-delay: 2.5s; }
-.absolute-progrss-bar-item-27 { animation: change_fill_absolute 0.5s; animation-delay: 2.6s; }
-.absolute-progrss-bar-item-28 { animation: change_fill_absolute 0.4s; animation-delay: 2.7s; }
-.absolute-progrss-bar-item-29 { animation: change_fill_absolute 0.3s; animation-delay: 2.8s; }
-.absolute-progrss-bar-item-30 { animation: change_fill_absolute 0.2s; animation-delay: 2.9s; }
-.absolute-progrss-bar-item-31 { animation: change_fill_absolute 0.1s; animation-delay: 3s;   }
+.absolute-progrss-bar-item-1  { animation: c hange_fill_absolute 3.1s;}
+.absolute-progrss-bar-item-2  { animation: change_fill_absolute 3s ; animation-delay: 0.1s; }
+.absolute-progrss-bar-item-3  { animation: change_fill_absolute 2.9s ; animation-delay: 0.2s; }
+.absolute-progrss-bar-item-4  { animation: change_fill_absolute 2.8s ; animation-delay: 0.3s; }
+.absolute-progrss-bar-item-5  { animation: change_fill_absolute 2.7s ; animation-delay: 0.4s; }
+.absolute-progrss-bar-item-6  { animation: change_fill_absolute 2.6s ; animation-delay: 0.5s; }
+.absolute-progrss-bar-item-7  { animation: change_fill_absolute 2.5s ; animation-delay: 0.6s; }
+.absolute-progrss-bar-item-8  { animation: change_fill_absolute 2.4s ; animation-delay: 0.7s; }
+.absolute-progrss-bar-item-9  { animation: change_fill_absolute 2.3s ; animation-delay: 0.8s; }
+.absolute-progrss-bar-item-10 { animation: change_fill_absolute 2.2s ; animation-delay: 0.9s; }
+.absolute-progrss-bar-item-11 { animation: change_fill_absolute 2.1s ; animation-delay: 1s;   }
+.absolute-progrss-bar-item-12 { animation: change_fill_absolute 2s ; animation-delay: 1.1s; }
+.absolute-progrss-bar-item-13 { animation: change_fill_absolute 1.9s ; animation-delay: 1.2s; }
+.absolute-progrss-bar-item-14 { animation: change_fill_absolute 1.8s ; animation-delay: 1.3s; }
+.absolute-progrss-bar-item-15 { animation: change_fill_absolute 1.7s ; animation-delay: 1.4s; }
+.absolute-progrss-bar-item-16 { animation: change_fill_absolute 1.6s ; animation-delay: 1.5s; }
+.absolute-progrss-bar-item-17 { animation: change_fill_absolute 1.5s ; animation-delay: 1.6s; }
+.absolute-progrss-bar-item-18 { animation: change_fill_absolute 1.4s ; animation-delay: 1.7s; }
+.absolute-progrss-bar-item-19 { animation: change_fill_absolute 1.3s ; animation-delay: 1.8s; }
+.absolute-progrss-bar-item-20 { animation: change_fill_absolute 1.2s ; animation-delay: 1.9s; }
+.absolute-progrss-bar-item-21 { animation: change_fill_absolute 1.1s ; animation-delay: 2s;   }
+.absolute-progrss-bar-item-22 { animation: change_fill_absolute 1s ; animation-delay: 2.1s; }
+.absolute-progrss-bar-item-23 { animation: change_fill_absolute 0.9s ; animation-delay: 2.2s; }
+.absolute-progrss-bar-item-24 { animation: change_fill_absolute 0.8s ; animation-delay: 2.3s; }
+.absolute-progrss-bar-item-25 { animation: change_fill_absolute 0.7s ; animation-delay: 2.4s; }
+.absolute-progrss-bar-item-26 { animation: change_fill_absolute 0.6s ; animation-delay: 2.5s; }
+.absolute-progrss-bar-item-27 { animation: change_fill_absolute 0.5s ; animation-delay: 2.6s; }
+.absolute-progrss-bar-item-28 { animation: change_fill_absolute 0.4s ; animation-delay: 2.7s; }
+.absolute-progrss-bar-item-29 { animation: change_fill_absolute 0.3s ; animation-delay: 2.8s; }
+.absolute-progrss-bar-item-30 { animation: change_fill_absolute 0.2s ; animation-delay: 2.9s; }
+.absolute-progrss-bar-item-31 { animation: change_fill_absolute 0.1s ; animation-delay: 3s;   }
 
-.quality-progrss-bar-item-1  { animation: change_fill_quality 3.1s;}
-.quality-progrss-bar-item-2  { animation: change_fill_quality 3s; animation-delay: 0.1s; }
-.quality-progrss-bar-item-3  { animation: change_fill_quality 2.9s; animation-delay: 0.2s; }
-.quality-progrss-bar-item-4  { animation: change_fill_quality 2.8s; animation-delay: 0.3s; }
-.quality-progrss-bar-item-5  { animation: change_fill_quality 2.7s; animation-delay: 0.4s; }
-.quality-progrss-bar-item-6  { animation: change_fill_quality 2.6s; animation-delay: 0.5s; }
-.quality-progrss-bar-item-7  { animation: change_fill_quality 2.5s; animation-delay: 0.6s; }
-.quality-progrss-bar-item-8  { animation: change_fill_quality 2.4s; animation-delay: 0.7s; }
-.quality-progrss-bar-item-9  { animation: change_fill_quality 2.3s; animation-delay: 0.8s; }
-.quality-progrss-bar-item-10 { animation: change_fill_quality 2.2s; animation-delay: 0.9s; }
-.quality-progrss-bar-item-11 { animation: change_fill_quality 2.1s; animation-delay: 1s;   }
-.quality-progrss-bar-item-12 { animation: change_fill_quality 2s; animation-delay: 1.1s; }
-.quality-progrss-bar-item-13 { animation: change_fill_quality 1.9s; animation-delay: 1.2s; }
-.quality-progrss-bar-item-14 { animation: change_fill_quality 1.8s; animation-delay: 1.3s; }
-.quality-progrss-bar-item-15 { animation: change_fill_quality 1.7s; animation-delay: 1.4s; }
-.quality-progrss-bar-item-16 { animation: change_fill_quality 1.6s; animation-delay: 1.5s; }
-.quality-progrss-bar-item-17 { animation: change_fill_quality 1.5s; animation-delay: 1.6s; }
-.quality-progrss-bar-item-18 { animation: change_fill_quality 1.4s; animation-delay: 1.7s; }
-.quality-progrss-bar-item-19 { animation: change_fill_quality 1.3s; animation-delay: 1.8s; }
-.quality-progrss-bar-item-20 { animation: change_fill_quality 1.2s; animation-delay: 1.9s; }
-.quality-progrss-bar-item-21 { animation: change_fill_quality 1.1s; animation-delay: 2s;   }
-.quality-progrss-bar-item-22 { animation: change_fill_quality 1s; animation-delay: 2.1s; }
-.quality-progrss-bar-item-23 { animation: change_fill_quality 0.9s; animation-delay: 2.2s; }
-.quality-progrss-bar-item-24 { animation: change_fill_quality 0.8s; animation-delay: 2.3s; }
-.quality-progrss-bar-item-25 { animation: change_fill_quality 0.7s; animation-delay: 2.4s; }
-.quality-progrss-bar-item-26 { animation: change_fill_quality 0.6s; animation-delay: 2.5s; }
-.quality-progrss-bar-item-27 { animation: change_fill_quality 0.5s; animation-delay: 2.6s; }
-.quality-progrss-bar-item-28 { animation: change_fill_quality 0.4s; animation-delay: 2.7s; }
-.quality-progrss-bar-item-29 { animation: change_fill_quality 0.3s; animation-delay: 2.8s; }
-.quality-progrss-bar-item-30 { animation: change_fill_quality 0.2s; animation-delay: 2.9s; }
-.quality-progrss-bar-item-31 { animation: change_fill_quality 0.1s; animation-delay: 3s;   }
+.quality-progrss-bar-item-1  { animation:  change_fill_quality 3.1s;}
+.quality-progrss-bar-item-2  { animation: change_fill_quality 3s ; animation-delay: 0.1s; }
+.quality-progrss-bar-item-3  { animation: change_fill_quality 2.9s ; animation-delay: 0.2s; }
+.quality-progrss-bar-item-4  { animation: change_fill_quality 2.8s ; animation-delay: 0.3s; }
+.quality-progrss-bar-item-5  { animation: change_fill_quality 2.7s ; animation-delay: 0.4s; }
+.quality-progrss-bar-item-6  { animation: change_fill_quality 2.6s ; animation-delay: 0.5s; }
+.quality-progrss-bar-item-7  { animation: change_fill_quality 2.5s ; animation-delay: 0.6s; }
+.quality-progrss-bar-item-8  { animation: change_fill_quality 2.4s ; animation-delay: 0.7s; }
+.quality-progrss-bar-item-9  { animation: change_fill_quality 2.3s ; animation-delay: 0.8s; }
+.quality-progrss-bar-item-10 { animation: change_fill_quality 2.2s ; animation-delay: 0.9s; }
+.quality-progrss-bar-item-11 { animation: change_fill_quality 2.1s ; animation-delay: 1s;   }
+.quality-progrss-bar-item-12 { animation: change_fill_quality 2s ; animation-delay: 1.1s; }
+.quality-progrss-bar-item-13 { animation: change_fill_quality 1.9s ; animation-delay: 1.2s; }
+.quality-progrss-bar-item-14 { animation: change_fill_quality 1.8s ; animation-delay: 1.3s; }
+.quality-progrss-bar-item-15 { animation: change_fill_quality 1.7s ; animation-delay: 1.4s; }
+.quality-progrss-bar-item-16 { animation: change_fill_quality 1.6s ; animation-delay: 1.5s; }
+.quality-progrss-bar-item-17 { animation: change_fill_quality 1.5s ; animation-delay: 1.6s; }
+.quality-progrss-bar-item-18 { animation: change_fill_quality 1.4s ; animation-delay: 1.7s; }
+.quality-progrss-bar-item-19 { animation: change_fill_quality 1.3s ; animation-delay: 1.8s; }
+.quality-progrss-bar-item-20 { animation: change_fill_quality 1.2s ; animation-delay: 1.9s; }
+.quality-progrss-bar-item-21 { animation: change_fill_quality 1.1s ; animation-delay: 2s;   }
+.quality-progrss-bar-item-22 { animation: change_fill_quality 1s ; animation-delay: 2.1s; }
+.quality-progrss-bar-item-23 { animation: change_fill_quality 0.9s ; animation-delay: 2.2s; }
+.quality-progrss-bar-item-24 { animation: change_fill_quality 0.8s ; animation-delay: 2.3s; }
+.quality-progrss-bar-item-25 { animation: change_fill_quality 0.7s ; animation-delay: 2.4s; }
+.quality-progrss-bar-item-26 { animation: change_fill_quality 0.6s ; animation-delay: 2.5s; }
+.quality-progrss-bar-item-27 { animation: change_fill_quality 0.5s ; animation-delay: 2.6s; }
+.quality-progrss-bar-item-28 { animation: change_fill_quality 0.4s ; animation-delay: 2.7s; }
+.quality-progrss-bar-item-29 { animation: change_fill_quality 0.3s ; animation-delay: 2.8s; }
+.quality-progrss-bar-item-30 { animation: change_fill_quality 0.2s ; animation-delay: 2.9s; }
+.quality-progrss-bar-item-31 { animation: change_fill_quality 0.1s ; animation-delay: 3s;   }
 
 @keyframes change_fill_absolute {
     0% { fill: #0C1C52;}
