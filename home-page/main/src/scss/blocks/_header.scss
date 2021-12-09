@@ -144,10 +144,15 @@
     }
 
     &_covid {
-      font-size: 0.7vw;
-      margin-top: 0.8vw;
+      font-family: Oswald;
+      margin-top: 0.6vw;
       margin-left: -0.4vw;
-      font-weight: bold;
+      font-size: .95vw;
+      color: #fb9b2b;
+      text-transform: uppercase;
+      font-weight: 400;
+      letter-spacing: .05em;
+      
     }
   }
   
@@ -224,6 +229,8 @@
     padding-bottom: 0.625vw;
 
     &_covid {
+      width: 11.5vw;
+      top: 1.5vw;
       right: 18vw;
     }
   }
