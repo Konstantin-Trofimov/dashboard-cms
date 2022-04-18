@@ -16,10 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                               
-                                activity: 'наука/образование'
-                            },
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -39,11 +36,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -69,11 +64,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -92,11 +85,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -115,11 +106,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -138,11 +127,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -161,11 +148,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -184,11 +169,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -207,11 +190,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -230,11 +211,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -253,11 +232,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -276,11 +253,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -299,11 +274,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -322,11 +295,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -345,11 +316,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -368,11 +337,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -391,11 +358,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -414,11 +379,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -437,11 +400,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -460,11 +421,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -490,11 +449,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -513,11 +470,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -543,11 +498,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -578,11 +531,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -601,11 +552,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -624,11 +573,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -654,11 +601,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -684,11 +629,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -707,11 +650,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -730,11 +671,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -753,11 +692,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -776,11 +713,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -799,11 +734,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -822,11 +755,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -845,11 +776,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -868,11 +797,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -891,11 +818,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -914,11 +839,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -937,11 +860,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -972,11 +893,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -1003,11 +922,9 @@ document.addEventListener('DOMContentLoaded', () => {
                             icon: '',
                             occupation: 'Туризм',
                             interests:'Наука/образование',
-                            interaction: {
-                                internships: 11,
-                                employment: 3,
-                                activity: 'наука/образование'
-                            },
+                            internships: 11,
+                            employment: 3,
+                            activity: 'наука/образование',
                             preparation: '43.03.02 Туризм',
                             courses: 'Экономика и управление туристическим предприятием (3+ и 3++)',
                             director: 'Зарина Валерьевна Догузова',
@@ -1530,7 +1447,9 @@ document.addEventListener('DOMContentLoaded', () => {
             color,
             occupation,
             interests,
-            interaction,
+            internships,
+            employment,
+            activity,
             preparation,
             courses,
             director,
@@ -1573,9 +1492,9 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
                     <div class="modal__block-item">
                         <div class="modal__block-item__title">Формы взаимодействия</div>
-                        <div class="modal__block-item__descr">Практики/стажировки: <span>${modalField(interaction.internships)}</span></div>
-                        <div class="modal__block-item__descr">Трудоустройство: <span>${modalField(interaction.employment)}</span></div>
-                        <div class="modal__block-item__descr">По выбору (образовательная деятельность, наука, дпо, и т.д.): <span>${modalField(interaction.activity)}</span></div>
+                        <div class="modal__block-item__descr">Практики/стажировки: <span>${modalField(internships)}</span></div>
+                        <div class="modal__block-item__descr">Трудоустройство: <span>${modalField(employment)}</span></div>
+                        <div class="modal__block-item__descr">По выбору (образовательная деятельность, наука, дпо, и т.д.): <span>${modalField(activity)}</span></div>
                     </div>
                     <div class="modal__block-item">
                         <div class="modal__block-item__title">Направления подготовки</div>
@@ -1617,7 +1536,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 <div class="modal__contract-date">Дата заключения договора: <span>${modalField(contractConclusionDate)}</span></div>
                 <div class="modal__contract-type">Период действия договора: <span>${modalField(contractType)}</span></div>
             </div>
-            `
+        `
     } 
 
     const overlay = document.querySelector('.overlay');
