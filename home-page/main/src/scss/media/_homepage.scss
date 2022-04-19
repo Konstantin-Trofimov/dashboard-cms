@@ -1,0 +1,171 @@
+@media (max-width: 1181px) {
+ .header {
+  &__search {
+   display: none;
+  }
+
+  &__bg {
+   display: none;
+   &-tablet {
+    display: block;
+   }
+  }
+ }
+
+ .topnav__btn {
+  &_priority, &_covid {
+   svg {
+    display: none;
+   }
+   top: 3.5vw;
+  } 
+  &_priority {
+   left: 38%;
+  } 
+  &_covid {
+   left: 50%;
+   height: 2.4vw;
+  }
+  &_portraits {
+   left: 8vw;
+   top: 3.5vw;
+   svg {
+    height: 3.2vw;
+   }
+  }
+  &-text {
+   font-weight: 600;
+   letter-spacing: 0.05em;
+  }
+ } 
+
+ .layout-link {
+  &_home {
+   top: 3.8vw;
+   left: 5vw;
+
+   &-bg {
+    display: none;
+   }
+
+   li {
+    width: 3.3vw;
+    height: 3.3vw;
+   }
+  }
+ }
+
+ .header__link {
+  &-bg {
+   &-tablet {
+     display: block;
+   } 
+ }
+ }
+ 
+ #rec_click {
+  top: 2.5vw;
+ }
+
+ .block-bg_tablet {
+  display: block !important;
+ }
+ .block-bg_desk {
+  display: none;
+ }
+ .block-title {
+  font-size: 1.5vw !important;
+ }
+ .block-bg {
+  display: none;
+ }
+ .homepage {
+  // display: none;
+  flex-direction: column;
+  padding: 10vw 4vw 0;
+
+
+
+  div {
+   // width: 100%;
+   // display: flex;
+   section {
+    margin: 0 !important;
+   }
+  }
+  &__left {
+   width: 100%;
+   display: grid;
+   grid-template-columns: 60vw 22vw;
+   .finance {
+    width: 60vw;
+
+    .block-wrap {
+     padding: 3.5vw 0;
+    }
+
+    &__header {
+     justify-content: start;
+     margin-left: 10vw;
+    }
+
+    &__total {
+     margin-left: 2.5vw;
+     &-wrap {
+      font-size: 1.5vw;
+      letter-spacing: 0.05em;
+      span {
+       font-size: 1.5vw;
+      }
+     }
+     &-descr {
+      font-size: .8vw;
+     }
+    }
+
+    &__body {
+     flex-direction: row;
+     padding-left: 20vw;
+     width: fit-content;
+     height: 12.5vw;
+
+     &-item {
+      padding: 0;
+      width: 130%;
+      height: 80%;
+     }
+    }
+
+    &__legend {
+     width: 18vw;
+    }
+
+    &__diagram {
+     &-value {
+      display: none;
+     }
+    }
+   }
+  }
+  &__middle {
+   section {
+    display: none !important;
+   }
+  }
+
+  &__right {
+   section {
+    display: none !important;
+   }
+  }
+ }
+
+
+
+ .footer {
+  &__btns {
+   bottom: 2vw;
+   right: 8vw;
+  }
+ }
+}

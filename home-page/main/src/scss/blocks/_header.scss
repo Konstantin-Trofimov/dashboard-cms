@@ -111,7 +111,8 @@
 }
 
 .layout-link__item {
-  padding: 0.781vw;
+  width: 2.65vw;
+  height: 2.65vw;
 }
 
 
@@ -171,6 +172,10 @@
     z-index: -1;
     width: 100%;
     height: 100%;
+
+    &-tablet {
+      display: none;
+    }
   }
   
   .header__search {
@@ -237,6 +242,10 @@
     position: absolute;
     top: 0;
     right: 0;
+
+    &-tablet {
+      display: none;
+    }
   }
   
   svg {
@@ -245,17 +254,16 @@
 
   .layout-link {
     position: absolute;
-    top: 1.8vw;
+    top: 2.8vw;
     left: 2.188vw;
     display: flex;
     align-items: center;
     margin: -0.781vw;
 
-    &_home {
-        top: 1.7vw;
-        left: 2.9vw;
-
-    }
+  &_home {
+    top: 2.5vw;
+    left: 2.9vw;
+  }
 }
   
 
