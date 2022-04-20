@@ -90,6 +90,8 @@ document.addEventListener('DOMContentLoaded', () => {
     
     const insertToPage = (className, data) => document.querySelector(`.${className}`).innerHTML = data;
 
+    const insertToPageAll = (className, data) => document.querySelectorAll(`.${className}`).forEach(i => i.innerHTML = data);
+
 
     function numDataOutput(num) {
         let str = num.toString();
@@ -310,12 +312,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function financeDataOutput(data) {
         insertToPage('finance__total-value', numDataOutput(data.total));
-        
-        insertToPage('finance__diagram-value_budget-resources', numDataOutput(data.budgetResources));
-        insertToPage('finance__diagram-value_other-resources', numDataOutput(data.otherResources));
-        insertToPage('finance__diagram-value_wage-fund', numDataOutput(data.wageFund));
-        insertToPage('finance__diagram-value_land-tax', numDataOutput(data.landTax));
-        insertToPage('finance__diagram-value_property-tax', numDataOutput(data.propertyTax));
+        insertToPageAll('finance__diagram-value_budget-resources', numDataOutput(data.budgetResources));
+        insertToPageAll('finance__diagram-value_other-resources', numDataOutput(data.otherResources));
+        insertToPageAll('finance__diagram-value_wage-fund', numDataOutput(data.wageFund));
+        insertToPageAll('finance__diagram-value_land-tax', numDataOutput(data.landTax));
+        insertToPageAll('finance__diagram-value_property-tax', numDataOutput(data.propertyTax));
     }
 
     financeDataOutput(financeData);
@@ -1234,4 +1235,33 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     insertToPage('footer__btns-val', numDataOutput(partnersData.count));
+
+
+    // =================== блоки данных в мобильой версии ================================
+
+    // const generalData = {
+    //     students:  4844,
+    //     rate: 5,
+    //     teachers: 1279,
+    //     scientists: 347,
+    //     score: 4.2,
+    //     contracts: 111,
+    //     progress: 39.62,
+    //     publications: 1078,
+    //     cash: 3.45,
+    //     budget: 4.08 
+    // }
+
+    insertToPage('finance__main-data__value_budget', generalData.budget)
+    insertToPage('finance__main-data__value_cash', generalData.cash)
+
+    insertToPage('science__main-data__value_publications', generalData.publications)
+    insertToPage('science__main-data__value_progress', generalData.progress)
+    insertToPage('science__main-data__value_contracts', generalData.contracts)
+
+    insertToPage('international__main-data__value_rate', generalData.rate)
+
+
 })
+
+

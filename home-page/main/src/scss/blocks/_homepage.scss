@@ -156,6 +156,11 @@
                         top: 0.5vw;
                         left: -0.3vw;    
                     }
+
+                    &_tablet {
+                        display: none;
+                        line-height: 140%;
+                    }
                 }
             }
 
@@ -196,8 +201,14 @@
                     line-height: 0.9vw;
                     letter-spacing: 0.03em;
                     color: #FFFFFF;
+
+                    
                 }
             }
+
+            &__main-data {
+                display: none;
+            } 
         }
         
         .science {
@@ -211,6 +222,10 @@
                 padding-left: 1.4vw;
                 padding-right: 1.8vw;
                 padding-bottom: 3.9vw;
+            }
+
+            &__main-data {
+                display: none;
             }
 
             &__info {
@@ -467,7 +482,10 @@
                     }
                 }
             }
+
+         
         }
+        
     }
 
     &__middle {
@@ -476,6 +494,10 @@
         position: relative;
         
         .main {
+            &-tablet {
+                display: none;
+            }
+
             margin-top: 2.5vw;
             display: flex;
             align-items: center;
@@ -491,7 +513,7 @@
 				align-items: center;
 				justify-content: center;
 				margin: -1vw auto 0.8vw auto;
-              }
+            }
               
 			.site__btn svg {
 				position: absolute;
@@ -1407,6 +1429,9 @@
             height: 15.2vw;
             margin: 0 5vw 1.5vw auto;    
 
+            &__main-data {
+                display: none;
+            }
 
             &__title {
                 letter-spacing: 0.05em;

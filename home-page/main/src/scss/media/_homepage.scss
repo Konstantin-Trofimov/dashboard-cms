@@ -82,7 +82,7 @@
  .homepage {
   // display: none;
   flex-direction: column;
-  padding: 10vw 4vw 0;
+  padding: 6vw 4.3vw 0;
 
 
 
@@ -96,7 +96,9 @@
   &__left {
    width: 100%;
    display: grid;
-   grid-template-columns: 60vw 22vw;
+   grid-template-columns: 60vw 30vw;
+   column-gap: 3vw;
+
    .finance {
     width: 60vw;
 
@@ -104,11 +106,30 @@
      padding: 3.5vw 0;
     }
 
+    &__main-data {
+      left: 0.5vw;
+      top: 5.5vw;
+      height: 50%;
+      position: absolute;
+      display: block;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-evenly;
+      text-align: center;
+      &__text {
+        color: #627DAE;
+        text-transform: uppercase;
+        font-size: 0.8vw;
+      }
+      &__value {
+        font-weight: 500;
+        font-size: 1.2vw;
+      }
+    } 
     &__header {
      justify-content: start;
      margin-left: 10vw;
     }
-
     &__total {
      margin-left: 2.5vw;
      &-wrap {
@@ -122,45 +143,361 @@
       font-size: .8vw;
      }
     }
-
     &__body {
      flex-direction: row;
-     padding-left: 20vw;
+     padding-left: 16vw;
      width: fit-content;
      height: 12.5vw;
-
      &-item {
       padding: 0;
       width: 130%;
       height: 80%;
      }
     }
-
     &__legend {
-     width: 18vw;
+      width: 22vw;
+      padding-left: 2vw;
+      padding-top: 0.4vw;
+      &-descr {
+        margin-left: 0.6vw;
+        font-size: 0.9vw;
+      }
+      &-mark {
+        width: 1.2vw;
+        height: 1.1vw;
+      }
     }
-
     &__diagram {
-     &-value {
-      display: none;
-     }
+      &-value {
+        display: none;
+        &_tablet {
+          display: block;
+        }
+      }
+      &-data {
+        width: 9.55vw;
+        top: 40%
+      }
+      &-text {
+        top: 70%;
+        font-size: .7vw;
+      }
+    }
+   }
+
+   .science {
+      position: relative;
+      top: 2.7vw;
+      width: 30vw;
+      height: 35vw;
+    .block-wrap {
+      padding: 9vw 2vw 0 2vw;
+    }
+    &__main-data {
+      left: 50%;
+      transform: translate(-50%, -50%);
+      top: 4vw;
+      width: 100%;
+      position: absolute;
+      display: block;
+      display: flex;
+      justify-content: space-evenly;
+      text-align: center;
+      &__text {
+        color: #627DAE;
+        text-transform: uppercase;
+        font-size: 0.8vw;
+      }
+      &__value {
+        font-weight: 500;
+        font-size: 1.2vw;
+      }
+    } 
+    &__info {
+      position: relative;
+    }
+    &__title {
+      position: absolute;
+    }
+    &__plan, &__legend {
+      position: relative;
+      top: 2vw;
+    }
+    &__legend {
+      &-item {
+        display: flex;
+        flex-direction: column-reverse;
+        margin-top: 0.6vw;
+      }
+      &-sum {
+        font-weight: 500;
+        font-size: 1vw;
+      }
+      &-descr {
+       font-size: 0.9vw; 
+       line-height: 140%;
+      }
+    }
+    &__plan {
+      &-header {
+        font-size: .9vw;
+      }
+      &-ratio {
+        margin-top: 0.3vw;
+        font-size: 1.5vw;
+      }
+      &-progressbar {
+        width: 11.3vw;
+        height: 2.4vw;
+      }
+      &-sum {
+        color: #627DAE;
+        font-size: 1vw;
+      }
+    }
+    &__divider {
+      top: 62%;
+    }
+    &__list {
+      width: 50%;
+      &-item {
+        &-bg {
+          display: none !important;
+        }
+        &-icon {
+          width: 1vw;
+          height: 1.2vw;
+        }
+        &-text {
+          font-size: .9vw;
+          color: #CDD6EE;
+        }
+      }
+    }
+    &__data-container {
+      width: 50%;
+      height: 80%;
+    }
+    &__diagram {
+      top: -1vw;
+      right: 2vw;
+      &-month {
+        &-text {
+          font-size: .7vw;
+        }
+      }
     }
    }
   }
   &__middle {
+    width: 100%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 29.5vw;
+    left: 50%;
    section {
-    display: none !important;
+    // display: none !important;
+   }
+
+   .main {
+     display: none;
+
+     &-tablet {
+      position: absolute;
+      transform: translate(-50%, -50%);
+      top: 82%;
+      left: 50%;
+      display: block;
+      width: 28vw;
+      height: 10vw;
+    }
+   }
+
+   .students {
+    left: 19vw;
+    width: 28vw;
+    &__employment, &__diagram {
+      display: none;
+    }
+
+    &__title {
+      text-align: start;
+      line-height: 130%;;
+    }
+
+    &__teaching-load {
+      height: 15vw;
+      padding-left: 1.9vw;
+      &-plan {
+        display: flex;
+      }
+      &-hours {
+        display: flex;
+        padding-left: 6vw;
+        font-size: 1vw;
+        width: 11.5vw;
+        justify-content: space-between;
+      }
+      &-progressbar {
+        position: relative;
+        top: 1vw;
+        height: 2vw;
+        gap: 10%;
+        span {
+          width: 0.8vw;
+        }
+      }
+      &-fact {
+        position: relative;
+        top: 1.3vw;
+      }
+      &-ratio {
+        font-size: 1.5vw;
+      }
+      &-title {
+        margin-top: 0.3vw;
+        font-size: 1vw;
+      }
+    }
+    &__graphic {
+      &-container {
+        left: -2vw;
+        position: relative;
+        width: 15vw;
+        height: fit-content;
+      }
+      &-item {
+        grid-template-rows: 2.4vw;
+        grid-template-columns: 5.1vw 1fr;
+      }
+      &-descr {
+        font-size: 0.9vw;
+        letter-spacing: .04em;
+      }
+      &-value {
+        font-size: 0.8vw;
+        right: -3vw;
+        top: -0.9vw;
+      }
+      &-row {
+        height: 270%;
+      }
+      &-right-rect {
+        display: none;
+      }
+    }
+   
    }
   }
 
   &__right {
-   section {
-    display: none !important;
-   }
+    width: 100%;
+    display: grid;
+    grid-template-columns: 30vw 60vw;
+    position: relative;
+    column-gap: 3vw;
+
+    .international {
+      top: 2.5vw;
+      left: 0.6vw;
+      position: relative;
+      width: 28.3vw;
+      height: 17vw;
+
+      &__main-data {
+        left: 3.5vw;
+        transform: translate(-50%, -50%);
+        top: 9vw;
+        width: 100%;
+        position: absolute;
+        display: block;
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        &__contains {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+        &__text {
+          color: #627DAE;
+          text-transform: uppercase;
+          font-size: 0.8vw;
+        }
+        &__value {
+          font-weight: 500;
+          font-size: 1.2vw;
+        }
+        &__icon {
+          width: 1.3vw;
+          height: 1.4vw;
+        }
+      } 
+
+      &__divider, &__icon {
+        display: none;
+      }
+
+      &__info {
+        margin-left: 60%;
+        height: 75%;
+      }
+
+      &__item {
+        display: grid;
+        grid-template-columns: 4vw 1fr;
+        &-wrap {
+          
+        }
+      }
+
+      &__descr {
+        margin-left: 0;
+        font-size: .8vw;
+      }
+
+      &__globus {
+        top: -1.5vw;
+        left: 5vw;
+        width: 50%;
+      }
+    }
+    .vaccination {
+      // display: none;
+      width: 60vw;
+      top: 2.4vw;
+      left: -1.1vw;
+      position: relative;
+    }
   }
  }
 
+ .calendar {
+   &-finance {
+     bottom: 3vw;
+     gap: 40vw;
+     left: 56.5%;
+   }
 
+   &-science {
+    bottom: 0.1vw;
+    gap: 15.5vw;
+    // left: 20.5%;
+   }
+
+   &-students {
+    bottom: -7.6vw;
+    right: -6.3vw;
+    gap: 15.5vw;
+    // left: 20.5%;
+  }
+
+  &-international {
+    gap: 15.5vw;
+    bottom: -0.3vw;
+  }
+
+ }
 
  .footer {
   &__btns {
