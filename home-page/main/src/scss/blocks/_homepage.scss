@@ -1538,6 +1538,14 @@
                 padding-right: 0.3vw;
             }
 
+            &__main-data {
+                display: none;
+            }
+
+            &__btn {
+                display: none;
+            }
+
             &__header {
                 display: flex;
                 justify-content: space-between;
@@ -1741,11 +1749,10 @@
 
 
 .calendar {
-    
     position: absolute;
     display: grid;
     gap: 11.8vw;
-    bottom: 0.5vw;
+    bottom: 0.2vw;
     left: 50%;
     transform: translateX(-50%);
     grid-template-columns: 5vw 5vw;
@@ -1756,17 +1763,17 @@
 
     &-science {
         gap: 10.6vw;
-        bottom: 0.8vw;
+        bottom: 0.4vw;
     }
 
     &-vaccination {
         gap: 10.8vw;
-        bottom: 0.6vw;
+        bottom: 0.2vw;
     }
 
     &-international {
         gap: 10.8vw; 
-        bottom: 0.1vw;
+        bottom: -0.1vw;
         .calendar__year {
             padding-bottom: 0;
         }
@@ -1775,7 +1782,7 @@
     &-students {
         grid-template-columns: 5vw;
         gap: 0;
-        bottom: 0.59vw;
+        bottom: .2vw;
         left: 92.8%;
 
         .value {

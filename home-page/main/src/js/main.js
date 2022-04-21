@@ -802,6 +802,7 @@ document.addEventListener('DOMContentLoaded', () => {
           .right {text-align: right;}
           .right svg {transform: scaleX(-1);}
           .value {
+            margin-bottom: -0.3vw;
             font-family: 'Oswald', sans-serif;
             /* text-align: left; */
             font-weight: 400;
@@ -1237,7 +1238,7 @@ document.addEventListener('DOMContentLoaded', () => {
     insertToPage('footer__btns-val', numDataOutput(partnersData.count));
 
 
-    // =================== блоки данных в мобильой версии ================================
+    // =================== блоки данных в планшетной версии ================================
 
     // const generalData = {
     //     students:  4844,
@@ -1252,6 +1253,11 @@ document.addEventListener('DOMContentLoaded', () => {
     //     budget: 4.08 
     // }
 
+    // const performanceData = {
+    //     absolute: 77,
+    //     quality: 55
+    // }
+
     insertToPage('finance__main-data__value_budget', generalData.budget)
     insertToPage('finance__main-data__value_cash', generalData.cash)
 
@@ -1261,7 +1267,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
     insertToPage('international__main-data__value_rate', generalData.rate)
 
+    insertToPage('vaccination__main-data__value_teachers', generalData.teachers)
+    insertToPage('vaccination__main-data__value_scientists', generalData.scientists)
 
+    insertToPage('main-tablet__all-students-value', generalData.students)
+    insertToPage('main-tablet__value_score', generalData.score)
+
+    insertToPage('main-tablet__performance-diagram-value', performanceData.absolute + '%')
+
+
+    //================== центральный блок планшетной версии ==============================
+
+    function tabletPerformanceDiagram(absoluteValue) {
+        const tabletAbsoluteProgressbar = Array.from(document.querySelectorAll('.main-tablet__performance-diagram-progressbar path'))
+        const tabletAbsoluteProgressLength = progressLength(tabletAbsoluteProgressbar, absoluteValue)
+
+        setProgressBar(tabletAbsoluteProgressbar, tabletAbsoluteProgressLength, '#F79A2D')
+    }
+
+    tabletPerformanceDiagram(performanceData.absolute)
 })
 
 
